@@ -18,15 +18,9 @@ exclude:
     - bower.json
     - drafts
 
-permalink: /blog/:title.html
-
 navigation:
-    - title: home
-      link: /
     - title: research
       link: /research.html
-    - title: blog
-      link: /blog/
     - title: contact
       link: /contact.html
     - title: CV

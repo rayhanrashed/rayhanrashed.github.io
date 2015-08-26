@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        .navbar-fixed-top {
+            margin-top: 0 !important;
+            width:100% !important;
+        }
+    </style>
     <head>
         <title>
             {{ site.name }}{% if page.title %}: {{ page.title }}{% endif %}
@@ -7,14 +13,10 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
-        <!-- <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
-        <!-- <link href='http://fonts.googleapis.com/css?family=PT+Sans:400' rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="{{ site.url }}/media/main.css">
         <link rel="icon" type="image/png" href="{{ site.url }}/favicon.png">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-        
-        <!-- <link rel="alternate" type="application/rss+xml" href="{{ site.base }}/blog.xml" title="Atom"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
         {% if page.date %}
         {% assign shorturl = page.url | replace:'index.html','' %}
@@ -31,9 +33,10 @@
             content="{{ page.excerpt | markdownify | strip_html | strip_newlines }}">
         {% endif %}
     </head>
+
     <body>
         <div class="container{% if page.class %} {{ page.class }}{% endif %}">
-<header>
+            <header>
                 <div id="leader">
                     <ol class="breadcrumb">
                     <li><h1><a href="{{ site.base }}/">{{ site.name }}</a></h1></li>
@@ -42,27 +45,34 @@
                     <li><a href="/{{crumbs[1]}}">{{crumbs[1] | replace:'.html',''}}</a></li>
                     <!-- <li><a href="/{{crumbs[1]}}">{{page.title}}</a></li> -->
                     {% endif %}
-                </div>
-                
+                </div>  
             </header>
-<div class="col-md-8" role="main">
-            {{ content }}
-</div>
-            {% if page.plain != true %}
-            <div class="col-md-4">
-                    <nav class="tabbable tabs-right">
-                        {% for item in site.navigation %}
-                        <a class="nav nav-tabs"
-                            {% if item.link == shorturl or (item.link == '/blog/' and page.date) %}
-                                class="active"
-                            {% endif %}
-                            href="{{ site.base }}{{ item.link }}">
-                            {{ item.title }}
-                        </a>
-                        {% endfor %}
-                    </nav>
+
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="nav nav-tabs" href="/"> home </a>
                 </div>
-            {% endif %}
+                <div>
+                  <ul class="nav navbar-nav pull-right">
+                    {% for item in site.navigation %}
+                    <li> <a class="nav nav-tabs"
+                        {% if item.link == shorturl or (item.link == '/blog/' and page.date) %}
+                            class="active"
+                        {% endif %}
+                        href="{{ site.base }}{{ item.link }}">
+                        {{ item.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div class="col-md-12" role="main">
+                        {{ content }}
+            </div>
         </div>
 
         {% if page.mathjax %}
