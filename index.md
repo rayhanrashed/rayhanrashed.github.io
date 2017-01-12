@@ -2,13 +2,13 @@
 layout: home
 ---
 
-My name is Dana&euml; Metaxa-Kakavouli, and I'm a Ph.D. student studying [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci].
+My name is Dana&euml; Metaxa-Kakavouli, and I'm a second-year Ph.D. student studying [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci].
 
 I'm broadly interested in the ways technology and humanity mix---how each affects the other, and the insights we can develop about <strong>human cognition, communication, and socialization</strong> by studying that boundary.
 
-As of Fall 2015, I'm rotating with [James Landay][landay], and have an ongoing research project with [Michael Bernstein][msb]. Recently I also interned at [MetaMind][mm].
+I am co-advised by [James Landay][landay] in Computer Science and [Jeff Hancock][hancock] in the Commincation department here at Stanford. 
 
-I graduated from [Brown University][brown] in 2015 with B.A. degrees in both [Computer Science][browncs] and [Science, Technology, and Society][sts]. My advisor at Brown was [Jeff Huang][jeff], fearless leader of [Brown's HCI Group][brownhci].
+Before Stanford, I graduated from [Brown University][brown] in 2015 with a dual concentration in [Computer Science][browncs] and [Science, Technology, and Society][sts]. My advisor at Brown was [Jeff Huang][huang].
 
 P.S. In case you're wondering/struggling, my first name is pronounced like the verb "deny". 
 
@@ -19,7 +19,8 @@ P.S. In case you're wondering/struggling, my first name is pronounced like the v
 [sts]: http://www.brown.edu/academics/science-and-technology-studies/
 [browncs]: https://cs.brown.edu/
 [brownhci]: http://hci.cs.brown.edu/
-[jeff]: http://jeffhuang.com/
+[hancock]: http://jeff-hancock.com
+[huang]: http://jeffhuang.com/
 [landay]: https://profiles.stanford.edu/james-landay
 [msb]: http://hci.stanford.edu/msb/
 [mm]: http://metamind.io
