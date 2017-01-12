@@ -8,7 +8,7 @@ I am co-advised by [James Landay][landay] in Computer Science and [Jeff Hancock]
 
 My current work studies bias and information systems: identifying how cognitive biases at the individual level affect the technology we produce, as well as designing technological solutions for mitigating that bias.
 
-Before Stanford, I graduated from [Brown University][brown] in 2015 with a dual concentration in [Computer Science][browncs] and [Science, Technology, and Society][sts]. My advisor at Brown was [Jeff Huang][huang].
+Before Stanford, I graduated from [Brown University][brown] in 2015 with a dual concentration in [Computer Science][browncs] and [Science, Technology, and Society][sts]. My undergraduate advisor was [Jeff Huang][huang].
 
 P.S. In case you're wondering/struggling, my first name is pronounced like the verb "deny". 
 
