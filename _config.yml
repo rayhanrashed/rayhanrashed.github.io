@@ -23,7 +23,5 @@ navigation:
       link: /index.html
     - title: research
       link: /research.html
-    - title: contact
-      link: /contact.html
     - title: cv
       link: /content/CV.pdf
