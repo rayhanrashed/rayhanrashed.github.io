@@ -2,20 +2,23 @@
 layout: home
 ---
 
-My name is Dana&euml; Metaxa-Kakavouli, and I'm a second-year Ph.D. student studying [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci].
+###About 
 
-I am co-advised by [James Landay][landay] in Computer Science and [Jeff Hancock][hancock] in the Commincation department here at Stanford, supported by a Stanford Graduate Fellowship. I am also a Course Assistant for [CS181: Computers, Ethics, and Public Policy][cs181].
+I'm a third-year Ph.D. student in [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci].
 
-My current work studies bias and information systems: identifying how cognitive biases at the individual level affect the technology we produce, as well as designing technological solutions for mitigating that bias.
+My research is co-advised by [James Landay][landay] in Computer Science and [Jeff Hancock][hancock] in Communication at Stanford; my PhD is supported by a Stanford Graduate Fellowship. I also help teach [CS181: Computers, Ethics, and Public Policy][cs181].
 
-Before Stanford, I graduated from [Brown University][brown] in 2015 with a dual concentration in [Computer Science][browncs] and [Science, Technology, and Society][sts]. My undergraduate advisor was [Jeff Huang][huang].
+My research focuses on bias and technology: identifying the ways cognitive and psychological biases at the individual level shape our interactions with technology, studying political bias in search results and the web as a whole, and designing solutions to mitigate that bias. 
 
-P.S. In case you're wondering/struggling, my first name is pronounced like the verb "deny". 
+Before Stanford, I graduated from [Brown University][brown] in 2015 with a dual concentration in [Computer Science][browncs] and [Science, Technology, and Society][sts], advised by [Jeff Huang][huang].
+
+In case you're wondering/struggling, [my first name][danae] is pronounced like the verb "deny". 
 
 [stanford]: https://www.stanford.edu/
 [brown]: https://www.brown.edu/
 [cs]: http://www-cs.stanford.edu/
 [cs181]: https://stanfordcs181.github.io
+[danae]: https://en.wikipedia.org/wiki/Danaë
 [hci]:http://hci.stanford.edu/
 [sts]: http://www.brown.edu/academics/science-and-technology-studies/
 [browncs]: https://cs.brown.edu/
