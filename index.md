@@ -2,7 +2,7 @@
 layout: home
 ---
 
-###About 
+### About 
 
 I'm a third-year Ph.D. student in [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci].
 
