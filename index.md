@@ -10,7 +10,7 @@ My research is co-advised by [James Landay][landay] in Computer Science and [Jef
 
 My research focuses on bias and technology: identifying the ways cognitive and psychological biases at the individual level shape our interactions with technology, studying political bias in search results and the web as a whole, and designing solutions to mitigate that bias. 
 
-Before Stanford, I graduated from Brown University with a dual concentration in Computer Science and Science, Technology, and Society, advised by [Jeff Huang][huang].
+<!-- Before Stanford, I graduated from Brown University with a dual concentration in Computer Science and Science, Technology, and Society, advised by [Jeff Huang][huang]. -->
 
 My first name is pronounced like the verb ["deny"][danae]. 
 
