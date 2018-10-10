@@ -2,8 +2,6 @@
 layout: home
 ---
 
-### About 
-
 I'm a fourth year Ph.D. candidate in [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci].
 
 My research is co-advised by [James Landay][landay] in Computer Science and [Jeff Hancock][hancock] in Communication at Stanford; my PhD is supported by a Stanford Graduate Fellowship. I also help teach [CS181: Computers, Ethics, and Public Policy][cs181].
