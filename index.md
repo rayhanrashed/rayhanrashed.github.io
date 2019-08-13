@@ -12,7 +12,7 @@ I am also a graduate fellow at the Stanford McCoy Center for Ethics in Society, 
 
 <!-- Before Stanford, I graduated from Brown University with a dual concentration in Computer Science and Science, Technology, and Society, advised by [Jeff Huang][huang]. -->
 
-My first name is pronounced like the verb "[deny][danae]". 
+My first name is pronounced like the verb "deny". 
 
 [stanford]: https://www.stanford.edu/
 [brown]: https://www.brown.edu/
