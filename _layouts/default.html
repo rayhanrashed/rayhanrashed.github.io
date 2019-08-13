@@ -17,6 +17,8 @@
         <link rel="icon" type="image/png" href="{{ site.url }}/favicon.png">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
 
         {% if page.date %}
         {% assign shorturl = page.url | replace:'index.html','' %}
@@ -36,14 +38,13 @@
 
     <body>
         <div class="container{% if page.class %} {{ page.class }}{% endif %}">
-            <header>
+            <header> <!-- this does the weird hidden header at the top of each page -->
                 <div id="leader">
                     <ol class="breadcrumb">
                     <li><h1><a href="{{ site.base }}/">{{ site.name }}</a></h1></li>
                     {% if page.title!="" %}
                     {% assign crumbs = page.url | split: '/' %}
                     <li><a href="/{{crumbs[1]}}">{{crumbs[1] | replace:'.html',''}}</a></li>
-                    <!-- <li><a href="/{{crumbs[1]}}">{{page.title}}</a></li> -->
                     {% endif %}
                 </div>  
             </header>
@@ -63,7 +64,7 @@
                         href="{{ site.base }}{{ item.link }}">
                         {{ item.title }}
                         </a>
-                    </li>
+                    </li>   
                     {% endfor %}
                   </ul>
                 </div>
