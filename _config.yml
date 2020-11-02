@@ -25,3 +25,4 @@ navigation:
       link: /research.html
     - title: CV
       link: /content/CV.pdf
+theme: jekyll-theme-minimal
