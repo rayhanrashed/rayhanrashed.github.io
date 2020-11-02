@@ -2,13 +2,9 @@
 layout: home
 ---
 
-I'm a fifth year Ph.D. candidate in [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci].
+I'm a sixth year Ph.D. candidate in [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci], co-advised by [James Landay][landay] (Computer Science) and [Jeff Hancock][hancock] (Communication).
 
-My research is co-advised by [James Landay][landay] in Computer Science and [Jeff Hancock][hancock] in Communication at Stanford; my PhD is supported by a Stanford Graduate Fellowship. 
-
-My research focuses on bias and technology: identifying the ways cognitive and psychological biases at the individual level shape our interactions with technology, studying political bias in search results and the web as a whole, gender bias and other social inequalities in social networks, and designing solutions to mitigate that bias. 
-
-I am also a graduate fellow at the Stanford McCoy Center for Ethics in Society, and help teach [CS181: Computers, Ethics, and Public Policy][cs181].
+In my research, I develop and deploy methods for studying **algorithms and algorithmic content**, grounded in theory about bias and representation in high-stakes social settings (like politics and employment) and focused on maginalized people. I use two complementary methodological approaches: first, I use computational techniques like the _algorithm audit_, building systems to understand and improve algorithmic systems; second, I close the loop with methods from behavioral social science to understand people's lived experiences with technology. 
 
 <!-- Before Stanford, I graduated from Brown University with a dual concentration in Computer Science and Science, Technology, and Society, advised by [Jeff Huang][huang]. -->
 
