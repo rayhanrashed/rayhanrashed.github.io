@@ -1,4 +1,5 @@
 name: Dana&euml; Metaxa
+title: Dana&euml; Metaxa
 author: Dana&euml; Metaxa
 url: https://dmetaxak.github.io
 base: ''
@@ -26,3 +27,6 @@ navigation:
     - title: CV
       link: /content/CV.pdf
 theme: jekyll-theme-minimal
+
+sass:
+    sass_dir: _sass
