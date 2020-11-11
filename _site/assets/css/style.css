@@ -212,4 +212,14 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
   header ul { width: 99%; }
   header li, header ul li + li + li { width: 33%; } }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
-body { background-color: #ffffff; }
+body { background-color: #ffffff; font-family: Lato, Helvetica, Arial, sans-serif; }
+
+h1 { font-family: Lato; font-size: 24px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26px; }
+
+h3 { font-family: Lato; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; }
+
+p { font-family: Lato; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+
+blockquote { font-family: Lato; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
+
+pre { font-family: Lato; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }
