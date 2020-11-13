@@ -28,3 +28,6 @@ navigation:
       link: /content/CV.pdf
 
 theme: jekyll-theme-minimal
+
+sass:
+  sass_dir: _sass

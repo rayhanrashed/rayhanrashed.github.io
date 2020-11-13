@@ -2,25 +2,39 @@
 layout: home
 ---
 
-I'm a sixth year Ph.D. candidate in [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci], co-advised by [James Landay][landay] (Computer Science) and [Jeff Hancock][hancock] (Communication).
+I'm a sixth year Ph.D. candidate in [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci], co-advised by [James Landay][landay] (Computer Science) and [Jeff Hancock][hancock] (Communication). In my research, I develop and deploy methods for studying **bias and representation in algorithms and algorithmic content**, focusing on high-stakes social settings like politics and employment, and on the experiences of maginalized people. 
 
-In my research, I develop and deploy methods for studying **algorithms and algorithmic content**, grounded in theory about bias and representation in high-stakes social settings (like politics and employment) and focused on maginalized people. I use two complementary methodological approaches: first, I use computational techniques like the _algorithm audit_, building systems to understand and improve algorithmic systems; second, I close the loop with methods from behavioral social science to understand people's lived experiences with technology. 
-
-<!-- Before Stanford, I graduated from Brown University with a dual concentration in Computer Science and Science, Technology, and Society, advised by [Jeff Huang][huang]. -->
-
-My first name is pronounced like the verb "deny". 
-
-[stanford]: https://www.stanford.edu/
-[brown]: https://www.brown.edu/
 [cs]: http://www-cs.stanford.edu/
-[cs181]: https://stanfordcs181.github.io
-[danae]: https://en.wikipedia.org/wiki/Danaë
+[stanford]: https://www.stanford.edu/
 [hci]:http://hci.stanford.edu/
-[sts]: http://www.brown.edu/academics/science-and-technology-studies/
-[browncs]: https://cs.brown.edu/
-[brownhci]: http://hci.cs.brown.edu/
 [hancock]: http://jeff-hancock.com
-[huang]: http://jeffhuang.com/
 [landay]: https://profiles.stanford.edu/james-landay
-[msb]: http://hci.stanford.edu/msb/
-[mm]: http://metamind.io
+
+Projects I've worked on include gender and race representation in search algorithms (_in submission_), [stereotypes and inclusivity in web interfaces][gender-inclusive], [the role of search media in elections][search media], and [social capital during disaster events][disasters].
+
+[search media]: https://dl.acm.org/doi/abs/10.1145/3359231
+[disasters]: https://dl.acm.org/citation.cfm?id=3274391
+[gender-inclusive]: https://dl.acm.org/citation.cfm?id=3173574.3174188
+
+In addition to academic publications, I've written for a general audience on topics like [political bias in search results in _The Guardian_][guardian], and [social media sites and democracy in _Wired_][wired]. 
+
+[wired]: https://www.wired.co.uk/article/how-to-fix-facebook
+[guardian]:https://www.theguardian.com/commentisfree/2018/sep/06/google-search-results-rigged-news-donald-trump
+
+Before my PhD, I graduated with dual degrees in Computer Science alongside Science, Technology, and Society at Brown University in 2015. 
+
+P.S. My first name is pronounced like the verb "deny". 
+
+## Recent Publications
+[Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media][finsta]\
+_Best Paper Honorable Mention_\
+Sijia Xiao, **Danaë Metaxa**, Joon Sung Park, Karrie Karahalios, Niloufar Salehi (ACM CHI 2020)
+
+[Search Media and Elections: A Longitudinal Investigation of Political Search Results in the 2018 U.S. Elections][search media]\
+**Danaë Metaxa**, Joon Sung Park, James Landay, Jeff Hancock (ACM CSCW 2019)
+
+[Glasnost! Nine ways Facebook can make itself a better forum for free speech and democracy][glasnost]\
+Timothy Garton Ash, Robert Gorwa, **Danaë Metaxa** (Reuters Institute for the Study of Journalism, Oxford)
+
+[glasnost]: https://reutersinstitute.politics.ox.ac.uk/our-research/glasnost-nine-ways-facebook-can-make-itself-better-forum-free-speech-and-democracy
+[finsta]: https://dl.acm.org/doi/fullHtml/10.1145/3313831.3376424
