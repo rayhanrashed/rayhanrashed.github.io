@@ -2,6 +2,8 @@
 layout: home
 ---
 
+## I'm on the academic job market this year!
+
 I'm a sixth year Ph.D. candidate in [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci], co-advised by [James Landay][landay] (Computer Science) and [Jeff Hancock][hancock] (Communication). In my research, I develop and deploy methods for studying **bias and representation in algorithms and algorithmic content**, focusing on high-stakes social settings like politics and employment, and on the experiences of maginalized people. 
 
 [cs]: http://www-cs.stanford.edu/
@@ -25,6 +27,8 @@ Before my PhD, I graduated with dual degrees in Computer Science alongside Scien
 
 P.S. My first name is pronounced like the verb "deny". 
 
+<!-- ## Selected Projects
+ -->
 ## Recent Publications
 [Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media][finsta]\
 _Best Paper Honorable Mention_\

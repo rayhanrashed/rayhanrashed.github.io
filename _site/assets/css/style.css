@@ -201,6 +201,8 @@ src: local("Crimson Text Bold Italic"), local("CrimsonText-BoldItalic"), url("..
 
 body { background-color: #fff; padding: 50px; font-family: Lato, Helvetica, Arial, sans-serif; color: #727272; font-weight: 400; }
 
+.img-circle { border-radius: 50%; }
+
 h1, h2, h3, h4, h5, h6 { color: #222; margin: 0 0 20px; }
 
 p, ul, ol, table, pre, dl { margin: 0 0 20px; }
