@@ -26,7 +26,5 @@ navigation:
       link: /research.html
     - title: CV
       link: /content/CV.pdf
-theme: jekyll-theme-minimal
 
-sass:
-    sass_dir: _sass
+theme: jekyll-theme-minimal
