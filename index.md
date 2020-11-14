@@ -41,7 +41,7 @@ I have several ongoing threads of research, mainly focusing on bias and represen
      style="max-width: 85%;" />
 </center>
 
-**WORKING PAPER: [An Image of Society: Gender and Racial Representation and Impact in Image Search Results for Occupations][image society]**\
+**[An Image of Society: Gender and Racial Representation and Impact in Image Search Results for Occupations][image society]**\
 **Danaë Metaxa**, Michelle Gan, Su Goh, James Landay, and Jeff Hancock. _In submission (R&R) to CSCW21_
 
 Visual diversity has been the subject of studies in domains like psychology and advertising. But unlike the purposeful persuasive intent behind advertising, algorithmic content like search engine results are compiled automatically and spontaneously in response to user queries. Regardless of intent, the impact on users—say, a young person of color looking for information about their desired career and finding a sea of white faces—may still be substantial. **Do image search results accurately reflect real-world gender and racial diversity? How does visual diversity influence users?**
