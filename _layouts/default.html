@@ -38,39 +38,6 @@
 
     <body>
         <div class="container{% if page.class %} {{ page.class }}{% endif %}">
-<!--             <header>
-                <div id="leader">
-                    <ol class="breadcrumb">
-                    <li><h1><a href="{{ site.base }}/">{{ site.name }}</a></h1></li>
-                    {% if page.title!="" %}
-                    {% assign crumbs = page.url | split: '/' %}
-                    <li><a href="/{{crumbs[1]}}">{{crumbs[1] | replace:'.html',''}}</a></li>
-                    {% endif %}
-                </div>  
-            </header>
- -->
-<!--             <nav class="navbar navbar-inverse navbar-fixed-top">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="nav nav-tabs" href="/"> Dana&euml; Metaxa </a>
-                </div>
-                <div>
-                  <ul class="nav navbar-nav pull-right">
-                    {% for item in site.navigation %}
-                    <li> <a class="nav nav-tabs"
-                        {% if item.link == shorturl or (item.link == '/blog/' and page.date) %}
-                            class="active"
-                        {% endif %}
-                        href="{{ site.base }}{{ item.link }}">
-                        {{ item.title }}
-                        </a>
-                    </li>
-                    {% endfor %}
-                  </ul>
-                </div>
-              </div>
-            </nav>
- -->
             <div class="col-md-12" role="main">
                         {{ content }}
             </div>
