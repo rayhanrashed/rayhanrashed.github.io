@@ -2,15 +2,15 @@
 layout: home
 ---
 
-## I'm on the academic job market this year!
+## I'm applying for PhD positions this year!
 
-I'm a sixth year Ph.D. candidate in [Computer Science][cs] at [Stanford University][stanford] in the [Human-Computer Interaction Group][hci], co-advised by [James Landay][landay] (Computer Science) and [Jeff Hancock][hancock] (Communication). In my research, I develop and deploy methods for studying **bias and representation in algorithms and algorithmic content**, focusing on high-stakes social settings like politics and employment, and on the experiences of maginalized people. 
+I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University of Engineering & Technology][buet]advised by [A.B.M. Alim Al Islam][razi]. I am also a research associate with [Syed Ishtiaque Ahmed][ishtiaque]. In my research, I develop and deploy methods for studying **bias and representation in algorithms and algorithmic content**, focusing on high-stakes social settings like politics and employment, and on the experiences of maginalized people. 
 
-[cs]: http://www-cs.stanford.edu/
-[stanford]: https://www.stanford.edu/
+[cs]: https://cse.buet.ac.bd/
+[buet]: https://www.buet.ac.bd/
 [hci]:http://hci.stanford.edu/
-[hancock]: http://jeff-hancock.com
-[landay]: https://profiles.stanford.edu/james-landay
+[ishtiaque]: http://ishtiaque.net
+[razi]: https://profiles.stanford.edu/james-landay
 
 Projects I've worked on include gender and race representation in search algorithms (_in submission_), [stereotypes and inclusivity in web interfaces][gender-inclusive], [the role of search media in elections][search media], and [social capital during disaster events][disasters].
 
