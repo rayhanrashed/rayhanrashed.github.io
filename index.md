@@ -40,7 +40,7 @@ Before my PhD, I graduated with....  -->
 
 ## Research Highlights 
 
-I have several ongoing threads of research, mainly focusing on bias and representation in algorithmic content, using a combination of computational and behavioral social science methods. 
+I have several ongoing threads of research, focusing on local and contextual appropriation of technological systems and tracking down the after-use phase of technology in third world countries.
 
 ### Contextualized Technology, Internet & Underserved Communities
 
@@ -58,7 +58,7 @@ People depending on alms are a group of vulnerable citizens deprived of necessar
 <center style="padding: 10px;">
 <img src="media/0001.jpg"
      alt="System Model of Dakter Bari."
-     style="max-width: 75%;" />
+     style="max-width: 90%;" />
 </center>
 
 In this project, currently in submission, studying this community we identify appropriate technology based information intermediaries. We then design, iteratively develop, deploy, and user-test such a solution in the field. The usage of the system for more than six months registering nearly 500 service requests demonstrates its efficacy in bridging the gap we identified in our study.
@@ -100,9 +100,17 @@ In this project, we have collected internet usage data in rural areas from a lar
 _In submission to_ **CSCW 2021**
 
 
-COVID-19 disrupted the existing ecosystem of technology repair and recycle in Bangladesh as visiting repair workshops became difficult and most repairers and e-waste workers had to temporarily close their businesses. Consequently, users were left with very few choices for fixing or recycling their devices. Based on our interviews with 30 repair and e-waste workers and 21 users of electronic devices we capture various aspects of this disruption and the corresponding coping mechanisms. This paper reports **how the repair and e-waste worker communities adopted various changes to their work**, provided remote services, and yet faced a decline in their business. On the other hand, **end-users learned to fix their devices**, collaborated with each other, and **negotiated with partially broken devices** to address this challenge.
+COVID-19 disrupted the existing ecosystem of technology repair and recycle in Bangladesh as visiting repair workshops became difficult and most repairers and e-waste workers had to temporarily close their businesses. Consequently, users were left with very few choices for fixing or recycling their devices. Based on our interviews with 30 repair and e-waste workers and 21 users of electronic devices we capture various aspects of this disruption and the corresponding coping mechanisms. 
+
+<center style="padding: 10px;">
+<img src="media/ewaste1.jpg",
+     style="max-width: 90%;" />
+</center>
+
+
+This paper reports **how the repair and e-waste worker communities adopted various changes to their work**, provided remote services, and yet faced a decline in their business. On the other hand, **end-users learned to fix their devices**, collaborated with each other, and **negotiated with partially broken devices** to address this challenge.
  
- <p>&nbsp</p>
+ <p>&nbsp;</p>
 
 
 **[When and Why End-Users Chooses between Discarding  and Attempting Self Repair?][booklike_summary]**\
