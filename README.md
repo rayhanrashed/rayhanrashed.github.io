@@ -1,4 +1,4 @@
-This is the first draft of my website, borrowed from Ali Alkhatib's [instructions][ali]. The design, code, and content are made available under the [Creative Commons Attribution][cc-by] license.
+This template is borrowed from [Danae Metaxa][met]. The source is probably [Ali Alkhatib][ali].
 
-[ali]: https://github.com/alialkhatib/alialkhatib.github.io
-[cc-by]: http://creativecommons.org/licenses/by/3.0/us/
+[met]: metaxa.net
+[ali]: al2.com
