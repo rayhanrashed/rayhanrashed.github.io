@@ -4,28 +4,37 @@ layout: home
 
 ## I'm applying for PhD positions this year!
 
-I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University of Engineering & Technology][buet]advised by [A.B.M. Alim Al Islam][razi]. I am also a research associate with [Syed Ishtiaque Ahmed][ishtiaque]. In my research, I develop and deploy methods for studying **bias and representation in algorithms and algorithmic content**, focusing on high-stakes social settings like politics and employment, and on the experiences of maginalized people. 
+I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University of Engineering & Technology][buet] advised by [A.B.M. Alim Al Islam][razi]. I am also a research associate to [Syed Ishtiaque Ahmed][ishtiaque] at [University of Toronto][toronto]. In my research I employ my designing, prototyping, and coding skills to **iteratively design and build** effective [technology for **communities at margins**][dakter_bari]. I also employ my training on mixed method to understand the (often unintended) ways end-users [contextually interact with technological interventions][uber] and [second-hand][second]/broken devices.
+
+1. My broader interest encompassing civic technology & Internet, ICTD,
+social computing, and psychology
+2. My five years experience working for an environmental organisation and  knowledge of Sustainability, and
+3. My research training 
+
+intersect at the academic work I do. I love working with people. I have **surveyed** more than 2000 people; **interviewed** more than 120 people; and conducted **quantitative and qualitative analyses** of survey, interview, and technology usage data.
+
+**PS:** My first name pronunciation is more like "**Roy-han**" 
 
 [cs]: https://cse.buet.ac.bd/
 [buet]: https://www.buet.ac.bd/
-[hci]:http://hci.stanford.edu/
+[toronto]: http://cs.toronto.edu/
 [ishtiaque]: http://ishtiaque.net
-[razi]: https://profiles.stanford.edu/james-landay
+[razi]: https://sites.google.com/site/abmalimalislam/publications
+[second]: https://en.wikipedia.org/wiki/Second_hand_(disambiguation)
 
-Projects I've worked on include gender and race representation in search algorithms (_in submission_), [stereotypes and inclusivity in web interfaces][gender-inclusive], [the role of search media in elections][search media], and [social capital during disaster events][disasters].
 
-[search media]: https://dl.acm.org/doi/abs/10.1145/3359231
-[disasters]: https://dl.acm.org/citation.cfm?id=3274391
-[gender-inclusive]: https://dl.acm.org/citation.cfm?id=3173574.3174188
+<!-- Papers -->
+[uber]: content/papers/cscw20d-sub1291-i52.pdf
+[dakter_bari]: content/papers/cscw20d-sub1862-i52.pdf
+[repair_covid]: content/papers/cscw21a-sub7252-i26.pdf
 
-In addition to academic publications, I've written for a general audience on topics like [political bias in search results in _The Guardian_][guardian], and [social media sites and democracy in _Wired_][wired]. 
 
-[wired]: https://www.wired.co.uk/article/how-to-fix-facebook
+<!--In addition to academic publications, I've written for a general audience on topics like [political bias in search results in _The Guardian_][guardian], and [social media sites and democracy in _Wired_][wired]. 
+
+ [wired]: https://www.wired.co.uk/article/how-to-fix-facebook
 [guardian]:https://www.theguardian.com/commentisfree/2018/sep/06/google-search-results-rigged-news-donald-trump
 
-Before my PhD, I graduated with dual degrees in Computer Science alongside Science, Technology, and Society at Brown University in 2015. 
-
-P.S. My first name is pronounced like the verb "deny". 
+Before my PhD, I graduated with....  -->
 
 ---
 
@@ -33,60 +42,71 @@ P.S. My first name is pronounced like the verb "deny".
 
 I have several ongoing threads of research, mainly focusing on bias and representation in algorithmic content, using a combination of computational and behavioral social science methods. 
 
-### Gender and Race Representation in Image Search Results
+### Contextualized Technology, Internet & Underserved Communities
+
+
+
+**[Dakter Bari: Introducing Technological Intermediary to
+Ensure Healthcare Services for Alms Dependents][dakter_bari]**\
+**Rayhan Rashed**, Aminul Hoque Sohel, and A.B.M. Alim-Al Islam \
+_In submission (R&R) to_ **CSCW 2021**
+
+
+
+People depending on alms are a group of vulnerable citizens deprived of necessary healthcare support, consequences of which can be minor to severe, and in some cases, fatal. Bangladesh--having more than 700 thousands of them--is no different. One noticeable difference of these almsdependents compared to similar communities in other parts of the world is that their technology penetration is near-to-zero. Thus, technology-based (such as app-based, mHealth, etc.) solutions for providing healthcare support, which maybe possible in advanced countries, are not possible in lower income countries like Bangladesh. However, there does exist multiple healthcare services in Bangladesh intended for these impoverished communities,which mostly remain underused by the intended population. This scenario presents a unique challenge, wherethere is a gap between healthcare services and their intended recipients. We ask **How can we ensure healthcare informations to this community?**
 
 <center style="padding: 10px;">
-<img src="media/author_race_P.png"
-     alt="Search results for the query 'author' with most images of people of color."
-     style="max-width: 85%;" />
+<img src="media/0001.jpg"
+     alt="System Model of Dakter Bari."
+     style="max-width: 75%;" />
 </center>
 
-**[An Image of Society: Gender and Racial Representation and Impact in Image Search Results for Occupations][image society]**\
-**Danaë Metaxa**, Michelle Gan, Su Goh, James Landay, and Jeff Hancock. _In submission (R&R) to CSCW21_
+In this project, currently in submission, studying this community we identify appropriate technology based information intermediaries. We then design, iteratively develop, deploy, and user-test such a solution in the field. The usage of the system for more than six months registering nearly 500 service requests demonstrates its efficacy in bridging the gap we identified in our study.
 
-Visual diversity has been the subject of studies in domains like psychology and advertising. But unlike the purposeful persuasive intent behind advertising, algorithmic content like search engine results are compiled automatically and spontaneously in response to user queries. Regardless of intent, the impact on users—say, a young person of color looking for information about their desired career and finding a sea of white faces—may still be substantial. **Do image search results accurately reflect real-world gender and racial diversity? How does visual diversity influence users?**
 
-In this project, currently in submission, we conducted an audit examining the results of Google Image queries for fifty common occupations, found that women and people of color were underrepresented relative to men and whites, and that the degree of this underrepresentation was not reflective of workforce participation. We then conducted a randomized controlled study exposing participants to a search results varying degrees of gender and racial diversity, finding that participants perceived occupations to be more inclusive when search results showed more women or people of color, and that participants’ interest in joining an occupation was greater when more people of color were represented. However, increasing the proportion of women actually decreased participant interest in some cases (perhaps an effect of perceived occupational feminization). We also examined the influence of participants’ own identities on their experience of image search results, finding that marginalized identity mediated participants’ expectation of being valued (e.g., greater representation of women was received positively by women participants but in some cases had a negative impact on men). Designing technology for inclusivity and belonging requires satisfying a complex and sometimes contradictory set of constraints; there is no silver bullet solution to make algorithms “fair” for all.
+<p>&nbsp;</p>
 
-[image society]: http://metaxa.net/content/papers/ImageSociety_2020.pdf
 
-### Inclusive Web Design
+**[Exploring the Tensions between the Owners and the Driversof Uber Cars in Urban Bangladesh][uber]**\
+S.M. Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Naeemul Hassan, and Syed Ishtiaque Ahmed \
+_In submission (R&R) to_ **CSCW 2021**
 
-<center style="padding: 10px;">
-<img src="media/ambientbelonging_stimuli.png"
-     alt="Two versions of an introductory course webpage"
-     style="max-width: 85%;" />
-</center>
 
-**[Gender-Inclusive Design: Belonging and Bias in Web Interfaces][ambient belonging]**\
-**Danaë Metaxa**, Kelly Wang, James Landay, and Jeff Hancock. (ACM CHI 2018)
+Most scholarly discussions around ridesharing applications center on the experiences of the drivers and the
+riders (passengers), and thus the role of the owners of the cars, if they are different from the drivers, remain
+understudied. However, in many countries in the Global South, the car owners are often different from the
+car drivers, and the tensions between them often shape the experience with these ridesharing apps in those
+countries. In this paper, currently under review, we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We
+identify the contract models that facilitate the partnership between prospective Uber drivers without a car
+and car owners seeking to rent their cars for Uber, describe the tensions between these two parties, provide a
+nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.** 
 
-Psychology theory suggests that people's ambient environments can cue stereotypes and influence their sense of belonging. Do digital spaces also impact self perception and choices? To answer this question, we ran a randomized controlled experiment to investigate, designing two different versions of a computer science course webpage altering only the aesthetics of the page but not its content. College-aged participants were either exposed to a course page with a neutral theme (i.e., images of trees, standard sans serif fonts) or one designed to evoke stereotypical ideas of computer science (i.e., star trek imagery, green text on a black background resembling a computer console). We found that, while men showed little preference for either website, women were negatively impacted by the stereotypical interface—they were less likely to feel they belonged in the course, less optimistic about their future performance, less interested in taking the course, and less interested in studying computer science at all. On the whole, women were 20% less likely to want to enroll in the course, a deterring effect of about twice that on men. This work uses gender bias as a case study supporting literature from psychology and translating it to a digital context; biases in online content can significantly impact users’ psychological sense of belonging, beliefs about themselves, and expected future behaviors. 
+<p>&nbsp;</p>
 
-[ambient belonging]: http://metaxa.net/content/papers/InclusiveDesign_CHI18.pdf
+**[Understanding Internet Usage in Rural Bangladesh: Effect of Seasonal Migration and Overseas Employment][cmd]**\
+_Manuscript in preparation in collaboration with [ICT Division, Government of Bangladesh][ictd]_
 
-### Algorithm Audits: Past, Present, and Best Practices
+In this project, we have collected internet usage data in rural areas from a large countrywide survey. With data collected from more than 8000 participants, we are working on analyzing how overseas employment--one of the biggest earning sources in rural families in Bangladesh-- and migration are shaping up the internet usage pattern, expectation, and strategies to minimize the costs.  
 
-_Manuscript in preparation in collaboration with Joon Sung Park, Ronald E. Robertson, Karrie Karahalios, Christo Wilson, and Christian Sandvig._
 
-Conducting a rigorous and effective algorithm audit like those I often deploy in my work entails legal and ethical challenges, as well as technical ones. I am currently leading a collaboration between leading algorithm audit researchers at Stanford, the University of Illinois at Urbana-Champaign, Northeastern University, and the University of Michigan to produce a journal article explaining the intellectual and scientific contributions of this important and versatile method, along with guidelines and best practices—technical, legal, and ethical—for conducting successful audit studies.
+[ictd]: https://ictd.gov.bd/
+[cmd]: www.rayhanrashed.github.io
+<p>&nbsp;</p>
 
+### Electronic Waste, Repair & Sustainability
+
+**[Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh][repair_covid]**\
+**Rayhan Rashed**, Mohammad Rashidujjaman Rifat, Priyank Chandra, S.M. Taiabul Haque, and Syed Ishtiaque Ahmed.\
+_In submission to_ **CSCW 2021**
+
+
+COVID-19 disrupted the existing ecosystem of technology repair and recycle in Bangladesh as visiting repair workshops became difficult and most repairers and e-waste workers had to temporarily close their businesses. Consequently, users were left with very few choices for fixing or recycling their devices. Based on our interviews with 30 repair and e-waste workers and 21 users of electronic devices we capture various aspects of this disruption and the corresponding coping mechanisms. This paper reports **how the repair and e-waste worker communities adopted various changes to their work**, provided remote services, and yet faced a decline in their business. On the other hand, **end-users learned to fix their devices**, collaborated with each other, and **negotiated with partially broken devices** to address this challenge.
+ 
+ <p>&nbsp</p>
+
+
+**[When and Why End-Users Chooses between Discarding  and Attempting Self Repair?][booklike_summary]**\
+_Manuscript in preparation in collaboration with Shion Guha and Syed Ishtiaque Ahmed_
+
+[booklike_summary]: content/old/repair_ewaste_book.pdf
 ---
-
-## Other Recent Publications
-For a complete list of my academic publications, see my [Google Scholar page][scholar].
-
-[scholar]: https://scholar.google.com/citations?user=6pA2wn4AAAAJ
-
-[Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media][finsta]\
-_Best Paper Honorable Mention_\
-Sijia Xiao, **Danaë Metaxa**, Joon Sung Park, Karrie Karahalios, and Niloufar Salehi (ACM CHI 2020)
-
-[Search Media and Elections: A Longitudinal Investigation of Political Search Results in the 2018 U.S. Elections][search media]\
-**Danaë Metaxa**, Joon Sung Park, James Landay, and Jeff Hancock (ACM CSCW 2019)
-
-[Glasnost! Nine ways Facebook can make itself a better forum for free speech and democracy][glasnost]\
-Timothy Garton Ash, Robert Gorwa, and **Danaë Metaxa** (Reuters Institute for the Study of Journalism, Oxford)
-
-[glasnost]: https://reutersinstitute.politics.ox.ac.uk/our-research/glasnost-nine-ways-facebook-can-make-itself-better-forum-free-speech-and-democracy
-[finsta]: https://dl.acm.org/doi/fullHtml/10.1145/3313831.3376424	
