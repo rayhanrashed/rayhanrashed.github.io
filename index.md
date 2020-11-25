@@ -27,7 +27,7 @@ intersect at the academic work I do. I love working with people. I have **survey
 [uber]: content/papers/cscw20d-sub1291-i52.pdf
 [dakter_bari]: content/papers/cscw20d-sub1862-i52.pdf
 [repair_covid]: content/papers/cscw21a-sub7252-i26.pdf
-
+[book]: content/papers/repair_ewaste_book.pdf
 
 <!--In addition to academic publications, I've written for a general audience on topics like [political bias in search results in _The Guardian_][guardian], and [social media sites and democracy in _Wired_][wired]. 
 
@@ -103,7 +103,7 @@ _In submission to_ **CSCW 2021**
 COVID-19 disrupted the existing ecosystem of technology repair and recycle in Bangladesh as visiting repair workshops became difficult and most repairers and e-waste workers had to temporarily close their businesses. Consequently, users were left with very few choices for fixing or recycling their devices. Based on our interviews with 30 repair and e-waste workers and 21 users of electronic devices we capture various aspects of this disruption and the corresponding coping mechanisms. 
 
 <center style="padding: 10px;">
-<img src="media/ewaste1.jpg"
+<img src="media/ewaste1.JPG"
      style="max-width: 90%;" />
 </center>
 
@@ -113,8 +113,9 @@ This paper reports **how the repair and e-waste worker communities adopted vario
  <p>&nbsp;</p>
 
 
-**[When and Why End-Users Chooses between Discarding  and Attempting Self Repair?][booklike_summary]**\
+**[When and Why End-Users Chooses between Discarding  and Attempting Self Repair?][book]**\
 _Manuscript in preparation in collaboration with Shion Guha and Syed Ishtiaque Ahmed_
 
-[booklike_summary]: content/old/repair_ewaste_book.pdf
+
+
 ---
