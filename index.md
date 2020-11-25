@@ -103,7 +103,7 @@ _In submission to_ **CSCW 2021**
 COVID-19 disrupted the existing ecosystem of technology repair and recycle in Bangladesh as visiting repair workshops became difficult and most repairers and e-waste workers had to temporarily close their businesses. Consequently, users were left with very few choices for fixing or recycling their devices. Based on our interviews with 30 repair and e-waste workers and 21 users of electronic devices we capture various aspects of this disruption and the corresponding coping mechanisms. 
 
 <center style="padding: 10px;">
-<img src="media/ewaste1.jpg",
+<img src="media/ewaste1.jpg"
      style="max-width: 90%;" />
 </center>
 
