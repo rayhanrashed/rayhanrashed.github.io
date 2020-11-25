@@ -58,7 +58,7 @@ People depending on alms are a group of vulnerable citizens deprived of necessar
 <center style="padding: 10px;">
 <img src="media/0001.jpg"
      alt="System Model of Dakter Bari."
-     style="max-width: 90%;" />
+     style="max-width: 100%;" />
 </center>
 
 In this project, currently in submission, studying this community we identify appropriate technology based information intermediaries. We then design, iteratively develop, deploy, and user-test such a solution in the field. The usage of the system for more than six months registering nearly 500 service requests demonstrates its efficacy in bridging the gap we identified in our study.
@@ -67,7 +67,7 @@ In this project, currently in submission, studying this community we identify ap
 <p>&nbsp;</p>
 
 
-**[Exploring the Tensions between the Owners and the Driversof Uber Cars in Urban Bangladesh][uber]**\
+**[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**\
 S.M. Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Naeemul Hassan, and Syed Ishtiaque Ahmed \
 _In submission (R&R) to_ **CSCW 2021**
 
@@ -104,7 +104,7 @@ COVID-19 disrupted the existing ecosystem of technology repair and recycle in Ba
 
 <center style="padding: 10px;">
 <img src="media/ewaste1.JPG"
-     style="max-width: 90%;" />
+     style="max-width: 100%;" />
 </center>
 
 
