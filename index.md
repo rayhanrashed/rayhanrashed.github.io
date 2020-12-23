@@ -69,7 +69,7 @@ In this project, currently in submission, studying this community we identify ap
 <p>&nbsp;</p>
 
 
-**[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**\
+**[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**
 
 
 Most scholarly discussions around ridesharing applications center on the experiences of the drivers and the
