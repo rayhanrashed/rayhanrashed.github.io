@@ -31,12 +31,6 @@ intersect at the academic work I do. I love working with people. I have **survey
 
 
 
-<!--In addition to academic publications, I've written for a general audience on topics like [political bias in search results in _The Guardian_][guardian], and [social media sites and democracy in _Wired_][wired]. 
-
-[wired]: https://www.wired.co.uk/article/how-to-fix-facebook
-[guardian]:https://www.theguardian.com/commentisfree/2018/sep/06/google-search-results-rigged-news-donald-trump
-
-Before my PhD, I graduated with....  -->
 
 ---
 ## Publications
@@ -47,8 +41,16 @@ Ensure Healthcare Services for Alms Dependents][dakter_bari]**\
 
 
 **[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**\
-S.M. Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Naeemul Hassan, and Syed Ishtiaque Ahmed \
+S M Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Md Main Uddin Rony, Naeemul Hassan, and Syed Ishtiaque Ahmed \
 **ACM CSCW 2021**
+
+
+<!--In addition to academic publications, I've written for a general audience on topics like [political bias in search results in _The Guardian_][guardian], and [social media sites and democracy in _Wired_][wired]. 
+
+[wired]: https://www.wired.co.uk/article/how-to-fix-facebook
+[guardian]:https://www.theguardian.com/commentisfree/2018/sep/06/google-search-results-rigged-news-donald-trump
+
+Before my PhD, I graduated with....  -->
 
 ---
 ## Research Highlights 
@@ -56,7 +58,7 @@ S.M. Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Naeemul Hassan, and S
 I have several ongoing threads of research, focusing on local and contextual appropriation of technological systems and tracking down the after-use phase of technology in third world countries.
 
 ### Contextualized Technology, Internet & Underserved Communities
-<span style="color:green"> Note:</span> I am really proud of this work! 
+<span style="color:green"> <b>Note:</b></span> I am really proud to ositive impact on others lives via this work! 
 
 People depending on alms are a group of vulnerable citizens deprived of necessary healthcare support, consequences of which can be minor to severe, and in some cases, fatal. Bangladesh--having more than 700 thousands of them--is no different. One noticeable difference of these almsdependents compared to similar communities in other parts of the world is that their technology penetration is near-to-zero. Thus, technology-based (such as app-based, mHealth, etc.) solutions for providing healthcare support, which maybe possible in advanced countries, are not possible in lower income countries like Bangladesh. However, there does exist multiple healthcare services in Bangladesh intended for these impoverished communities,which mostly remain underused by the intended population. This scenario presents a unique challenge, wherethere is a gap between healthcare services and their intended recipients. We ask **How can we ensure healthcare informations to this community?** `Paper:`**[CSCW 2021][dakter_bari]**
 
