@@ -59,11 +59,11 @@ I have several ongoing threads of research, focusing on local and contextual app
 
 **[Dakter Bari: Introducing Technological Intermediary to
 Ensure Healthcare Services for Alms Dependents][dakter_bari]**\
-**ACM CSCW 2021**
 
 
 
-People depending on alms are a group of vulnerable citizens deprived of necessary healthcare support, consequences of which can be minor to severe, and in some cases, fatal. Bangladesh--having more than 700 thousands of them--is no different. One noticeable difference of these almsdependents compared to similar communities in other parts of the world is that their technology penetration is near-to-zero. Thus, technology-based (such as app-based, mHealth, etc.) solutions for providing healthcare support, which maybe possible in advanced countries, are not possible in lower income countries like Bangladesh. However, there does exist multiple healthcare services in Bangladesh intended for these impoverished communities,which mostly remain underused by the intended population. This scenario presents a unique challenge, wherethere is a gap between healthcare services and their intended recipients. We ask **How can we ensure healthcare informations to this community?**
+
+People depending on alms are a group of vulnerable citizens deprived of necessary healthcare support, consequences of which can be minor to severe, and in some cases, fatal. Bangladesh--having more than 700 thousands of them--is no different. One noticeable difference of these almsdependents compared to similar communities in other parts of the world is that their technology penetration is near-to-zero. Thus, technology-based (such as app-based, mHealth, etc.) solutions for providing healthcare support, which maybe possible in advanced countries, are not possible in lower income countries like Bangladesh. However, there does exist multiple healthcare services in Bangladesh intended for these impoverished communities,which mostly remain underused by the intended population. This scenario presents a unique challenge, wherethere is a gap between healthcare services and their intended recipients. We ask **How can we ensure healthcare informations to this community?** [**CSCW 2021**][dakter_bari]
 
 <center style="padding: 10px;">
 <img src="media/0001.jpg"
@@ -78,7 +78,6 @@ In this project, currently in submission, studying this community we identify ap
 
 
 **[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**\
-**CSCW 2021**
 
 
 Most scholarly discussions around ridesharing applications center on the experiences of the drivers and the
@@ -88,7 +87,7 @@ car drivers, and the tensions between them often shape the experience with these
 countries. In this paper, currently under review, we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We
 identify the contract models that facilitate the partnership between prospective Uber drivers without a car
 and car owners seeking to rent their cars for Uber, describe the tensions between these two parties, provide a
-nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.** 
+nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.**  [**CSCW 2021**][uber]
 
 <p>&nbsp;</p>
 
