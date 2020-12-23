@@ -126,4 +126,4 @@ _Manuscript in preparation in collaboration with Shion Guha and Syed Ishtiaque A
 
 ---
 
-Forked from: [Danae Metaxa][https://metaxa.net]
+Forked from: https://metaxa.net
