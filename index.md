@@ -37,6 +37,17 @@ intersect at the academic work I do. I love working with people. I have **survey
 Before my PhD, I graduated with....  -->
 
 ---
+## Publications
+**[Dakter Bari: Introducing Technological Intermediary to
+Ensure Healthcare Services for Alms Dependents][dakter_bari]**\
+**Rayhan Rashed**, Aminul Hoque Sohel, and A.B.M. Alim-Al Islam \
+**ACM CSCW 2021**
+
+
+**[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**\
+S.M. Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Naeemul Hassan, and Syed Ishtiaque Ahmed \
+**ACM CSCW 2021**
+
 
 ## Research Highlights 
 
@@ -48,7 +59,6 @@ I have several ongoing threads of research, focusing on local and contextual app
 
 **[Dakter Bari: Introducing Technological Intermediary to
 Ensure Healthcare Services for Alms Dependents][dakter_bari]**\
-**Rayhan Rashed**, Aminul Hoque Sohel, and A.B.M. Alim-Al Islam \
 **ACM CSCW 2021**
 
 
@@ -68,7 +78,6 @@ In this project, currently in submission, studying this community we identify ap
 
 
 **[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**\
-S.M. Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Naeemul Hassan, and Syed Ishtiaque Ahmed \
 **CSCW 2021**
 
 
