@@ -9,6 +9,7 @@ I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University 
 social computing, and psychology
 2. My five years experience working for an environmental organisation and  knowledge of Sustainability, and
 3. My research training 
+
 intersect at the academic work I do. I love working with people. I have **surveyed** more than 2000 people; **interviewed** more than 120 people; and conducted **quantitative and qualitative analyses** of survey, interview, and technology usage data.
 
 **PS:** My first name pronunciation is more like "**Roy-han**" 
