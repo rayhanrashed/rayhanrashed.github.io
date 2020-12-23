@@ -58,7 +58,7 @@ Before my PhD, I graduated with....  -->
 I have several ongoing threads of research, focusing on local and contextual appropriation of technological systems and tracking down the after-use phase of technology in third world countries.
 
 ### Contextualized Technology, Internet & Underserved Communities
-<span style="color:green"> <b>Note:</b></span> I am really proud to ositive impact on others lives via this work! 
+<span style="color:green"> <b>Note:</b></span> <u>I am really proud of this work and the impact it created!</u> 
 
 People depending on alms are a group of vulnerable citizens deprived of necessary healthcare support, consequences of which can be minor to severe, and in some cases, fatal. Bangladesh--having more than 700 thousands of them--is no different. One noticeable difference of these almsdependents compared to similar communities in other parts of the world is that their technology penetration is near-to-zero. Thus, technology-based (such as app-based, mHealth, etc.) solutions for providing healthcare support, which maybe possible in advanced countries, are not possible in lower income countries like Bangladesh. However, there does exist multiple healthcare services in Bangladesh intended for these impoverished communities,which mostly remain underused by the intended population. This scenario presents a unique challenge, wherethere is a gap between healthcare services and their intended recipients. We ask **How can we ensure healthcare informations to this community?** `Paper:`**[CSCW 2021][dakter_bari]**
 
