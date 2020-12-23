@@ -5,12 +5,10 @@ layout: home
 ## I'm applying for research positions this year! Please let me know of suitable opportunities.
 
 I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University of Engineering & Technology][buet] advised by [A.B.M. Alim Al Islam][razi]. I am also a research associate to [Syed Ishtiaque Ahmed][ishtiaque] at [University of Toronto][toronto]. In my research I employ my designing, prototyping, and coding skills to **iteratively design and build** effective [technology for **communities at margins**][dakter_bari]. I also employ my training on mixed method to understand the (often unintended) ways end-users [contextually interact with technological interventions][uber] and [second-hand][second]/broken devices.
-
 1. My broader interest encompassing civic technology & Internet, ICTD,
 social computing, and psychology
 2. My five years experience working for an environmental organisation and  knowledge of Sustainability, and
 3. My research training 
-
 intersect at the academic work I do. I love working with people. I have **surveyed** more than 2000 people; **interviewed** more than 120 people; and conducted **quantitative and qualitative analyses** of survey, interview, and technology usage data.
 
 **PS:** My first name pronunciation is more like "**Roy-han**" 
@@ -56,7 +54,7 @@ I have several ongoing threads of research, focusing on local and contextual app
 ### Contextualized Technology, Internet & Underserved Communities
 Note: I am really proud of this work! 
 
-People depending on alms are a group of vulnerable citizens deprived of necessary healthcare support, consequences of which can be minor to severe, and in some cases, fatal. Bangladesh--having more than 700 thousands of them--is no different. One noticeable difference of these almsdependents compared to similar communities in other parts of the world is that their technology penetration is near-to-zero. Thus, technology-based (such as app-based, mHealth, etc.) solutions for providing healthcare support, which maybe possible in advanced countries, are not possible in lower income countries like Bangladesh. However, there does exist multiple healthcare services in Bangladesh intended for these impoverished communities,which mostly remain underused by the intended population. This scenario presents a unique challenge, wherethere is a gap between healthcare services and their intended recipients. We ask **How can we ensure healthcare informations to this community?** [Paper:[**CSCW 2021**]][dakter_bari]
+People depending on alms are a group of vulnerable citizens deprived of necessary healthcare support, consequences of which can be minor to severe, and in some cases, fatal. Bangladesh--having more than 700 thousands of them--is no different. One noticeable difference of these almsdependents compared to similar communities in other parts of the world is that their technology penetration is near-to-zero. Thus, technology-based (such as app-based, mHealth, etc.) solutions for providing healthcare support, which maybe possible in advanced countries, are not possible in lower income countries like Bangladesh. However, there does exist multiple healthcare services in Bangladesh intended for these impoverished communities,which mostly remain underused by the intended population. This scenario presents a unique challenge, wherethere is a gap between healthcare services and their intended recipients. We ask **How can we ensure healthcare informations to this community?** '[Paper: ]'[**CSCW 2021**]][dakter_bari]
 
 <center style="padding: 10px;">
 <img src="media/0001.jpg"
@@ -80,7 +78,7 @@ car drivers, and the tensions between them often shape the experience with these
 countries. In this paper, currently under review, we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We
 identify the contract models that facilitate the partnership between prospective Uber drivers without a car
 and car owners seeking to rent their cars for Uber, describe the tensions between these two parties, provide a
-nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.**  [Paper:[**CSCW 2021**]][uber]
+nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.**  '[Paper: ]' [**CSCW 2021**]][uber]
 
 <p>&nbsp;</p>
 
