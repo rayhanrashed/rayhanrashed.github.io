@@ -87,7 +87,7 @@ car drivers, and the tensions between them often shape the experience with these
 countries. In this paper, currently under review, we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We
 identify the contract models that facilitate the partnership between prospective Uber drivers without a car
 and car owners seeking to rent their cars for Uber, describe the tensions between these two parties, provide a
-nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.**  [Paper:] [**CSCW 2021**][uber]
+nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.**  [Paper:[**CSCW 2021**]][uber]
 
 <p>&nbsp;</p>
 
