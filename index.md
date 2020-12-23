@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## I'm applying for PhD positions this year!
+## I'm applying for research positions this year! Please let me know of suitable opportunities.
 
 I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University of Engineering & Technology][buet] advised by [A.B.M. Alim Al Islam][razi]. I am also a research associate to [Syed Ishtiaque Ahmed][ishtiaque] at [University of Toronto][toronto]. In my research I employ my designing, prototyping, and coding skills to **iteratively design and build** effective [technology for **communities at margins**][dakter_bari]. I also employ my training on mixed method to understand the (often unintended) ways end-users [contextually interact with technological interventions][uber] and [second-hand][second]/broken devices.
 
@@ -49,7 +49,7 @@ I have several ongoing threads of research, focusing on local and contextual app
 **[Dakter Bari: Introducing Technological Intermediary to
 Ensure Healthcare Services for Alms Dependents][dakter_bari]**\
 **Rayhan Rashed**, Aminul Hoque Sohel, and A.B.M. Alim-Al Islam \
-_In submission (R&R) to_ **CSCW 2021**
+**ACM CSCW 2021**
 
 
 
@@ -69,7 +69,7 @@ In this project, currently in submission, studying this community we identify ap
 
 **[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**\
 S.M. Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Naeemul Hassan, and Syed Ishtiaque Ahmed \
-_In submission (R&R) to_ **CSCW 2021**
+**CSCW 2021**
 
 
 Most scholarly discussions around ridesharing applications center on the experiences of the drivers and the
