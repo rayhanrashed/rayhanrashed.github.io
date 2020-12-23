@@ -28,9 +28,12 @@ intersect at the academic work I do. I love working with people. I have **survey
 [repair_covid]: content/papers/cscw21a-sub7252-i26.pdf
 [book]: content/papers/repair_ewaste_book.pdf
 
+
+
+
 <!--In addition to academic publications, I've written for a general audience on topics like [political bias in search results in _The Guardian_][guardian], and [social media sites and democracy in _Wired_][wired]. 
 
- [wired]: https://www.wired.co.uk/article/how-to-fix-facebook
+[wired]: https://www.wired.co.uk/article/how-to-fix-facebook
 [guardian]:https://www.theguardian.com/commentisfree/2018/sep/06/google-search-results-rigged-news-donald-trump
 
 Before my PhD, I graduated with....  -->
@@ -47,7 +50,7 @@ Ensure Healthcare Services for Alms Dependents][dakter_bari]**\
 S.M. Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Naeemul Hassan, and Syed Ishtiaque Ahmed \
 **ACM CSCW 2021**
 
-
+---
 ## Research Highlights 
 
 I have several ongoing threads of research, focusing on local and contextual appropriation of technological systems and tracking down the after-use phase of technology in third world countries.
@@ -68,7 +71,7 @@ In this project, currently in submission, studying this community we identify ap
 
 <p>&nbsp;</p>
 
-
+---
 **[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**
 
 
@@ -83,6 +86,7 @@ nuanced cultural portrayal of their negotiation mechanisms, and highlight the re
 
 <p>&nbsp;</p>
 
+---
 **[Understanding Internet Usage in Rural Bangladesh: Effect of Seasonal Migration and Overseas Employment][cmd]**\
 _Manuscript in preparation in collaboration with [ICT Division, Government of Bangladesh][ictd]_
 
@@ -93,6 +97,8 @@ In this project, we have collected internet usage data in rural areas from a lar
 [cmd]: www.rayhanrashed.github.io
 <p>&nbsp;</p>
 
+
+---
 ### Electronic Waste, Repair & Sustainability
 
 **[Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh][repair_covid]**\
@@ -112,7 +118,7 @@ This paper reports **how the repair and e-waste worker communities adopted vario
  
  <p>&nbsp;</p>
 
-
+---
 **[When and Why End-Users Chooses between Discarding  and Attempting Self Repair?][book]**\
 _Manuscript in preparation in collaboration with Shion Guha and Syed Ishtiaque Ahmed_
 
