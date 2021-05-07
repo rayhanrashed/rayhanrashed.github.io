@@ -23,8 +23,8 @@ intersect at the academic work I do. I love working with people. I have **survey
 
 
 <!-- Papers -->
-[uber]: content/papers/cscw20d-sub1291-i52.pdf
-[dakter_bari]: content/papers/cscw20d-sub1862-i52.pdf
+[uber]: content/papers/uber.pdf
+[dakter_bari]: content/papers/dakter_bari.pdf
 [repair_covid]: content/papers/cscw21a-sub7252-i26.pdf
 [book]: content/papers/repair_ewaste_book.pdf
 
