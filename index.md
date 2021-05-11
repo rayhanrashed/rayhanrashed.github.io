@@ -42,7 +42,8 @@ Services to Extremely Impoverished People][dakter_bari]**\
 
 
 **[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**\
-S M Taiabul Hoque, **Rayhan Rashed**, Mehrab Bin Morshed, Md Main Uddin Rony, Naeemul Hassan, and Syed Ishtiaque Ahmed \
+SM Taiabul Haque, **Rayhan Rashed**, Mehrab Bin Morshed, Md Main Uddin Rony, Naeemul Hassan, Syed Ishtiaque Ahmed
+ \
 **ACM CSCW 2021**
 
 
