@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## I'm applying for research positions this year! Please let me know of suitable opportunities.
+## I will be applying for PhD positions! Please let me know of suitable opportunities.
 
 I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University of Engineering & Technology][buet] advised by [A.B.M. Alim Al Islam][razi]. I am also a research associate to [Syed Ishtiaque Ahmed][ishtiaque] at [University of Toronto][toronto]. In my research I employ my designing, prototyping, and coding skills to **iteratively design and build** effective [technology for **communities at margins**][dakter_bari]. I also employ my training on mixed method to understand the (often unintended) ways end-users [contextually interact with technological interventions][uber] and [second-hand][second]/broken devices.
 <ol>
@@ -34,10 +34,11 @@ intersect at the academic work I do. I love working with people. I have **survey
 
 ---
 ## Publications
-**[Dakter Bari: Introducing Technological Intermediary to
-Ensure Healthcare Services for Alms Dependents][dakter_bari]**\
-**Rayhan Rashed**, Aminul Hoque Sohel, and A.B.M. Alim-Al Islam \
-**ACM CSCW 2021**
+**[Dakter Bari: Introducing Intermediary to Ensure Healthcare
+Services to Extremely Impoverished People][dakter_bari]**\
+**Rayhan Rashed<sup>\*</sup>**, Md Aminur Rahman<sup>\*</sup>, Sharmin Akther Purabi, Noshin Ulfat, Sriram Chellappan, ABM Alim Al Islam \
+**ACM CSCW 2021**\
+\* Equal contribution
 
 
 **[Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh][uber]**\
@@ -60,7 +61,8 @@ I have several ongoing threads of research, focusing on local and contextual app
 ### Contextualized Technology, Internet & Underserved Communities
 <span style="color:green"> <b>Note:</b></span> <u>I am really proud of this work and the impact it created!</u> 
 
-People depending on alms are a group of vulnerable citizens deprived of necessary healthcare support, consequences of which can be minor to severe, and in some cases, fatal. Bangladesh--having more than 700 thousands of them--is no different. One noticeable difference of these almsdependents compared to similar communities in other parts of the world is that their technology penetration is near-to-zero. Thus, technology-based (such as app-based, mHealth, etc.) solutions for providing healthcare support, which maybe possible in advanced countries, are not possible in lower income countries like Bangladesh. However, there does exist multiple healthcare services in Bangladesh intended for these impoverished communities,which mostly remain underused by the intended population. This scenario presents a unique challenge, wherethere is a gap between healthcare services and their intended recipients. We ask **How can we ensure healthcare informations to this community?** `Paper:`**[CSCW 2021][dakter_bari]**
+Bangladesh (a low-income country) has a significant number of people dependent on alms for daily survival. These people, who we address as extremely impoverished people (EIP) are deprived of even basic healthcare. Their extreme levels of poverty, coupled with low literacy skills, and complete lack of access to technology
+means that they are unaware of existing low-cost/free healthcare services (as arranged by local hospitals) available for EIPs. In this paper, we ask: **How can we extend the existing healthcare systems to this marginalized community?** `Paper:`**[CSCW 2021][dakter_bari]**
 
 <center style="padding: 10px;">
 <img src="media/0001.jpg"
@@ -68,7 +70,7 @@ People depending on alms are a group of vulnerable citizens deprived of necessar
      style="max-width: 100%;" />
 </center>
 
-In this project, currently in submission, studying this community we identify appropriate technology based information intermediaries. We then design, iteratively develop, deploy, and user-test such a solution in the field. The usage of the system for more than six months registering nearly 500 service requests demonstrates its efficacy in bridging the gap we identified in our study.
+With critical insights from our field study, we design, iteratively develop, deploy, and user-test such a solution called ***Dakter Bari*** in the field. The usage of the system for more than six months registering nearly 500 service requests demonstrates its efficacy in bridging the gap we identified in our study.
 
 
 <p>&nbsp;</p>
@@ -81,7 +83,7 @@ Most scholarly discussions around ridesharing applications center on the experie
 riders (passengers), and thus the role of the owners of the cars, if they are different from the drivers, remain
 understudied. However, in many countries in the Global South, the car owners are often different from the
 car drivers, and the tensions between them often shape the experience with these ridesharing apps in those
-countries. In this paper, currently under review, we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We
+countries. In this paper we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We
 identify the contract models that facilitate the partnership between prospective Uber drivers without a car
 and car owners seeking to rent their cars for Uber, describe the tensions between these two parties, provide a
 nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.** `Paper:`**[CSCW 2021][uber]**
@@ -128,4 +130,4 @@ _Manuscript in preparation in collaboration with Shion Guha and Syed Ishtiaque A
 
 ---
 
-Forked from: https://metaxa.net
+Forked from: [Danaë Metaxa](https://metaxa.net)
