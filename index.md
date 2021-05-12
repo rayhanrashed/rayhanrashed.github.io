@@ -5,11 +5,10 @@ layout: home
 ## I will be applying for PhD positions! Please let me know of suitable opportunities.
 
 I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University of Engineering & Technology][buet] advised by [A.B.M. Alim Al Islam][razi]. I am also a research associate to [Syed Ishtiaque Ahmed][ishtiaque] at [University of Toronto][toronto]. In my research I employ my designing, prototyping, and coding skills to **iteratively design and build** effective [technology for **communities at margins**][dakter_bari]. I also employ my training on mixed method to understand the (often unintended) ways end-users [contextually interact with technological interventions][uber] and [second-hand][second]/broken devices.
-<ol>
-<li> My broader interest encompassing civic technology & Internet, ICTD, social computing, and psychology</li>
-<li> Five years experience working for an environmental organisation and  knowledge of Sustainability, and </li>
-<li> My research training </li>
-</ol>
+1. My broader interest encompassing civic technology & Internet, ICTD, social computing, and psychology
+2. Five years experience working for an environmental organisation and  knowledge of Sustainability, and
+3. My research training
+
 intersect at the academic work I do. I love working with people. I have **surveyed** more than 2000 people; **interviewed** more than 120 people; and conducted **quantitative and qualitative analyses** of survey, interview, and technology usage data.
 
 **PS:** My first name pronunciation is more like "**Roy-han**" 
@@ -62,7 +61,7 @@ I have several ongoing threads of research, focusing on local and contextual app
 ### Contextualized Technology, Internet & Underserved Communities
 <span style="color:green"> <b>Note:</b></span> <u>I am really proud of this work and the impact it created!</u> 
 
-Bangladesh (a low-income country) has a significant number of people dependent on alms for daily survival. These extremely impoverished people are deprived of even basic healthcare. Their extreme levels of poverty, coupled with low literacy skills, and complete lack of access to technology means that they are unaware of existing low-cost/free healthcare services--arranged by local hospitals, NGOs, charity organizations. In this paper, we ask: **How can we extend the existing healthcare systems to this marginalized community?** `Paper:`**[CSCW 2021][dakter_bari]**
+Bangladesh (a low-income country) has a significant number of people dependent on alms for daily survival. These extremely impoverished people are deprived of even basic healthcare. Their extreme levels of poverty, coupled with low literacy skills, and complete lack of access to technology means that they are unaware of existing low-cost/free healthcare services--arranged by local hospitals, NGOs, charity organizations. In this paper, we ask: **How can we extend the existing healthcare systems to this marginalized community?** 
 
 <center style="padding: 10px;">
 <img src="media/0001.jpg"
@@ -70,7 +69,7 @@ Bangladesh (a low-income country) has a significant number of people dependent o
      style="max-width: 100%;" />
 </center>
 
-With critical insights from our field study, we design, iteratively develop, deploy, and user-test such a solution called ***Dakter Bari*** in the field. The usage of the system for more than six months registering nearly 500 service requests demonstrates its efficacy in bridging the gap we identified in our study.
+With critical insights from our field study, we design, iteratively develop, deploy, and user-test such a solution called ***Dakter Bari*** in the field. The usage of the system for more than six months registering nearly 500 service requests demonstrates its efficacy in bridging the gap we identified in our study. `Paper:`**[CSCW 2021][dakter_bari]**
 
 
 <p>&nbsp;</p>

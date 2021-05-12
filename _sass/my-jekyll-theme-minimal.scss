@@ -20,7 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  margin:0 0 5px;
+  font-family: Lato;
 }
 
 h1, h2, h3 {
@@ -255,9 +256,31 @@ footer {
   }
 }
 
+.rigamanga {
+  border-radius: 23px;
+}
+
+.rigarow {
+  margin-left:30px;
+}
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding-top: 10px;
+    padding-right: 1px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+  }
+
+  .rigamanga {
+    border-radius: 50%;
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rigarow {
+    margin-left:0px;
   }
 
   .downloads {
