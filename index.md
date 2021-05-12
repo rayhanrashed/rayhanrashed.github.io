@@ -62,8 +62,7 @@ I have several ongoing threads of research, focusing on local and contextual app
 ### Contextualized Technology, Internet & Underserved Communities
 <span style="color:green"> <b>Note:</b></span> <u>I am really proud of this work and the impact it created!</u> 
 
-Bangladesh (a low-income country) has a significant number of people dependent on alms for daily survival. These people, who we address as extremely impoverished people (EIP) are deprived of even basic healthcare. Their extreme levels of poverty, coupled with low literacy skills, and complete lack of access to technology
-means that they are unaware of existing low-cost/free healthcare services (as arranged by local hospitals) available for EIPs. In this paper, we ask: **How can we extend the existing healthcare systems to this marginalized community?** `Paper:`**[CSCW 2021][dakter_bari]**
+Bangladesh (a low-income country) has a significant number of people dependent on alms for daily survival. These extremely impoverished people are deprived of even basic healthcare. Their extreme levels of poverty, coupled with low literacy skills, and complete lack of access to technology means that they are unaware of existing low-cost/free healthcare services--arranged by local hospitals, NGOs, charity organizations. In this paper, we ask: **How can we extend the existing healthcare systems to this marginalized community?** `Paper:`**[CSCW 2021][dakter_bari]**
 
 <center style="padding: 10px;">
 <img src="media/0001.jpg"
