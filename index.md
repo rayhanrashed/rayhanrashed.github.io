@@ -33,6 +33,11 @@ intersect at the academic work I do. I love working with people. I have **survey
 
 ---
 ## Publications
+**[Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh][repair_covid]**\
+**Rayhan Rashed**, Mohammad Rashidujjaman Rifat, Syed Ishtiaque Ahmed.\
+**ACM COMPASS 2021**
+
+
 **[Dakter Bari: Introducing Intermediary to Ensure Healthcare
 Services to Extremely Impoverished People][dakter_bari]**\
 **Rayhan Rashed<sup>\*</sup>**, Md Aminur Rahman<sup>\*</sup>, Sharmin Akther Purabi, Noshin Ulfat, Sriram Chellappan, ABM Alim Al Islam \
@@ -59,7 +64,11 @@ Before my PhD, I graduated with....  -->
 I have several ongoing threads of research, focusing on local and contextual appropriation of technological systems and tracking down the after-use phase of technology in third world countries.
 
 ### Contextualized Technology, Internet & Underserved Communities
-<span style="color:green"> <b>Note:</b></span> <u>I am really proud of this work and the impact it created!</u> 
+
+**[Dakter Bari: Healthcare, Marginalized Community & Infomediaries][repair_covid]**
+
+
+<span style="color:green"> <b>NOTE:</b></span> <u>I am really proud of this work and the impact it created!</u> 
 
 Bangladesh (a low-income country) has a significant number of people dependent on alms for daily survival. These extremely impoverished people are deprived of even basic healthcare. Their extreme levels of poverty, coupled with low literacy skills, and complete lack of access to technology means that they are unaware of existing low-cost/free healthcare services--arranged by local hospitals, NGOs, charity organizations. In this paper, we ask: **How can we extend the existing healthcare systems to this marginalized community?** 
 
@@ -104,10 +113,7 @@ In this project, we have collected internet usage data in rural areas from a lar
 ---
 ### Electronic Waste, Repair & Sustainability
 
-**[Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh][repair_covid]**\
-**Rayhan Rashed**, Mohammad Rashidujjaman Rifat, Priyank Chandra, S.M. Taiabul Haque, and Syed Ishtiaque Ahmed.\
-_Under Review @_ **CSCW 2021**
-
+**[Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh][repair_covid]**
 
 COVID-19 disrupted the existing ecosystem of technology repair and recycle in Bangladesh as visiting repair workshops became difficult and most repairers and e-waste workers had to temporarily close their businesses. Consequently, users were left with very few choices for fixing or recycling their devices. Based on our interviews with 30 repair and e-waste workers and 21 users of electronic devices we capture various aspects of this disruption and the corresponding coping mechanisms. 
 
@@ -117,7 +123,8 @@ COVID-19 disrupted the existing ecosystem of technology repair and recycle in Ba
 </center>
 
 
-This paper reports **how the repair and e-waste worker communities adopted various changes to their work**, provided remote services, and yet faced a decline in their business. On the other hand, **end-users learned to fix their devices**, collaborated with each other, and **negotiated with partially broken devices** to address this challenge.
+This paper reports **how the repair and e-waste worker communities adopted various changes to their work**, provided remote services, and yet faced a decline in their business. On the other hand, **end-users learned to fix their devices**, collaborated with each other, and **negotiated with partially broken devices** to address this challenge. `Paper:`**[COMPASS 2021][repair_covid]**
+
  
  <p>&nbsp;</p>
 
