@@ -32,7 +32,7 @@ intersect at the academic work I do. I love working with people. I have **survey
 
 
 ---
-## Publications
+## Selected Publications
 **[Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh][repair_covid]**\
 **Rayhan Rashed**, Mohammad Rashidujjaman Rifat, Syed Ishtiaque Ahmed.\
 **ACM COMPASS 2021**
