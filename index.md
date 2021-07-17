@@ -31,8 +31,9 @@ intersect at the academic work I do. I love working with people. I have **survey
 <!-- ####  -->
 **<span style="font-size:1.15em;">Want a brief sample of my work? Check out this recent talk I gave about how pandemic is shaping up the informal electronics repair work.</span>**
 
-<iframe width="660" height="315" src="https://www.youtube.com/embed/jNmzYRbu2Rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="videodiv">
+<iframe class="videofram" width="660" height="315" src="https://www.youtube.com/embed/jNmzYRbu2Rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ---
 ## Selected Publications
