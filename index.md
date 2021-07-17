@@ -9,7 +9,7 @@ I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University 
 2. Five years experience working for an environmental organisation and  knowledge of Sustainability, and
 3. My research training
 
-intersect at the academic work I do. I love working with people. I have **surveyed** more than 2000 people; **interviewed** more than 120 people; and conducted **quantitative and qualitative analyses** of survey, interview, and technology usage data.
+intersect at the academic work I do. I love working with people. I have **surveyed** more than 2000 people, **interviewed** more than 120 people, and conducted **quantitative and qualitative analyses** of survey, interview, and technology usage data.
 
 **PS:** My first name pronunciation is more like "**Roy-han**" 
 
@@ -24,11 +24,14 @@ intersect at the academic work I do. I love working with people. I have **survey
 <!-- Papers -->
 [uber]: content/papers/uber.pdf
 [dakter_bari]: content/papers/dakter_bari.pdf
-[repair_covid]: content/papers/cscw21a-sub7252-i26.pdf
+[repair_covid]: content/papers/pandemic_repair.pdf
 [book]: content/papers/repair_ewaste_book.pdf
 
 
+<!-- ####  -->
+**<span style="font-size:1.15em;">Want a brief sample of my work? Check out this recent talk I gave about how pandemic is shaping up the informal electronics repair work.</span>**
 
+<iframe width="660" height="315" src="https://www.youtube.com/embed/jNmzYRbu2Rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ---
