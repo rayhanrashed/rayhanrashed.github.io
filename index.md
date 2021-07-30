@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## I will be applying for PhD positions! Please let me know of suitable opportunities.
+## Will be applying for PhD positions starting in Fall22!
 
 I'm a fourth year undergrad in [Computer Science][cs] at [Bangladesh University of Engineering & Technology][buet] advised by [A.B.M. Alim Al Islam][razi]. I am also a research associate to [Syed Ishtiaque Ahmed][ishtiaque] at [University of Toronto][toronto]. In my research I employ my designing, prototyping, and coding skills to **iteratively design and build** effective [technology for **communities at margins**][dakter_bari]. I also employ my training on mixed method to understand the (often unintended) ways end-users [contextually interact with technological interventions][uber] and [second-hand][second]/broken devices.
 1. My broader interest encompassing civic technology & Internet, ICTD, social computing, and psychology
