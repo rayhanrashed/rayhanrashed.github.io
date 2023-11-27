@@ -70,7 +70,7 @@ I have several ongoing threads of research, focusing on local and contextual app
 
 ### Contextualized Technology, Internet & Underserved Communities
 
-**[Dakter Bari: Healthcare, Marginalized Community & Infomediaries][repair_covid]**
+**[Dakter Bari: Healthcare, Marginalized Community & Infomediaries][dakter_bari]**
 
 
 <span style="color:green"> <b>NOTE:</b></span> <u>I am really proud of this work and the impact it created!</u> 
@@ -93,11 +93,16 @@ With critical insights from our field study, we design, iteratively develop, dep
 
 
 Most scholarly discussions around ridesharing applications center on the experiences of the drivers and the
-riders (passengers), and thus the role of the owners of the cars, if they are different from the drivers, remain
-understudied. However, in many countries in the Global South, the car owners are often different from the
-car drivers, and the tensions between them often shape the experience with these ridesharing apps in those
-countries. In this paper we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We
-identify the contract models that facilitate the partnership between prospective Uber drivers without a car
+riders (passengers), and thus the role of the owners of the cars, if they are different from the drivers, remain understudied. However, in many countries in the Global South, the car owners are often different from the car drivers, and the tensions between them often shape the experience with these ridesharing apps in those countries. 
+
+<center style="padding: 10px;">
+<img src="media/collage.jpg"
+     alt="How Uber in Bangladesh deviates from traditional sharing economy"
+     style="max-width: 100%;" />
+</center>
+
+
+In this paper we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We identify the contract models that facilitate the partnership between prospective Uber drivers without a car
 and car owners seeking to rent their cars for Uber, describe the tensions between these two parties, provide a
 nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.** `Paper:`**[CSCW 2021][uber]**
 
