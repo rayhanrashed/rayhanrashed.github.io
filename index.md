@@ -2,17 +2,18 @@
 layout: home
 ---
 
-## Will be applying for PhD positions starting in Fall 2024!
+## Looking for PhD positions starting in Fall 2024!
 
 
-I am a lecturer at the [Computer Science Department][cs] at [Bangladesh University of Engineering & Technology (BUET)][buet]. I was fortunate enough to be advised by [A.B.M. Alim Al Islam][razi] during my bachelors at the same institution (BUET). Currently, I am also a research associate to [Syed Ishtiaque Ahmed][ishtiaque] at [University of Toronto][toronto]. In my research I employ my designing, prototyping, and coding skills to **iteratively design and build** effective [technology for **communities at margins**][dakter_bari]. I also employ my training on mixed method to understand the (often unintended) ways end-users [contextually interact with technological interventions][uber] and [second-hand][second]/broken devices.
-1. My broader interest encompassing civic technology & Internet, ICTD, social computing, and psychology
-2. Five years experience working for an environmental organisation and  knowledge of Sustainability, and
-3. My research training
+I am a lecturer at the [CS Department][cs] at [Bangladesh University of Engineering & Technology (BUET)][buet]. I've graduated from this department in 2021 with a 3.94 GPA securing the 2nd position in my class. My academic path was greatly influenced by [Dr. A.B.M. Alim Al Islam][razi], who advised my bachelor's thesis. Currently, I am working as a remote research engineer at the Saudi Data & AI Authority (SDAIA) working at large scale deployment of human-centered AI systems. Previously, I had the invaluable opportunity to be mentored by and collaborate closely with [Dr. Ishtiaque Ahmed][ishtiaque] at the [University of Toronto][toronto].
 
-intersect at the academic work I do. I love working with people. I have **surveyed** more than 2000 people, **interviewed** more than 120 people, and conducted **quantitative and qualitative analyses** of survey, interview, and technology usage data.
+ 
 
-**PS:** My first name pronunciation is more like "**Roy-han**" 
+My broader interest lies at the intersection of social computing, participatory & responsible AI, civic technology, and policy. I also explore how to design, use, and build technologies for communities at the margins.
+
+I also have experience working with an environmental organisation. My knowledge of sustainable development, design, technical skills intersect at the work I do. I love working with people. I have **surveyed** more than 2000 people, **interviewed** more than 120 people, and conducted **quantitative and qualitative analyses** of survey, interview, and technology usage data.
+
+**PS:** My first name pronunciation is more like "**Raye-haan**" 
 
 [cs]: https://cse.buet.ac.bd/
 [buet]: https://www.buet.ac.bd/
