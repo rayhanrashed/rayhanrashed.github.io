@@ -5,7 +5,7 @@ layout: home
 ## Looking for PhD positions starting in Fall 2024!
 
 
-I am a lecturer at the [CS Department][cs] at [Bangladesh University of Engineering & Technology (BUET)][buet]. I've graduated from this department in 2021 with a 3.94 GPA securing the 2nd position in my class. My academic path was greatly influenced by [Dr. A.B.M. Alim Al Islam][razi], who advised my bachelor's thesis. Currently, I am working as a remote research engineer at the Saudi Data & AI Authority (SDAIA) working at large scale deployment of human-centered AI systems. Previously, I had the invaluable opportunity to be mentored by and collaborate closely with [Dr. Ishtiaque Ahmed][ishtiaque] at the [University of Toronto][toronto].
+I am a lecturer at the [CS Department][cs] at [Bangladesh University of Engineering & Technology (BUET)][buet]. I've graduated from this department with a 3.94 GPA securing the 2nd position in my class. My academic path was greatly influenced by [Dr. A.B.M. Alim Al Islam][razi], who advised my bachelor's thesis. Currently, I am working as a remote research engineer at the Saudi Data & AI Authority (SDAIA) working at large scale deployment of human-centered AI systems. Previously, I had the invaluable opportunity to be mentored by and collaborate closely with [Dr. Ishtiaque Ahmed][ishtiaque] at the [University of Toronto][toronto].
 
  
 
