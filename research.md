@@ -4,65 +4,72 @@ layout: default
 permalink: /research/
 ---
 
-# Research Projects
+# Research
 
-Below is a selection of my research projects focusing on the intersection of social computing, participatory & responsible AI, civic technology, and policy.
+My research integrates rigorous mixed-method studies with practical system-building, focusing on how AI-powered civic technologies can empower communities to shape their digital and social experiences.
 
-## Contextualized Technology, Internet & Underserved Communities
+## Current Research Areas
 
-### Dakter Bari: Healthcare, Marginalized Community & Infomediaries
-<span style="color:green"><b>NOTE:</b></span> <u>I am really proud of this work and the impact it created!</u>
+### Personalized & Community-driven Moderation
 
-Bangladesh (a low-income country) has a significant number of people dependent on alms for daily survival. These extremely impoverished people are deprived of even basic healthcare. Their extreme levels of poverty, coupled with low literacy skills, and complete lack of access to technology means that they are unaware of existing low-cost/free healthcare services--arranged by local hospitals, NGOs, charity organizations. In this paper, we ask: **How can we extend the existing healthcare systems to this marginalized community?**
+Online spaces are increasingly dominated by centralized content moderation approaches that fail to address diverse community needs. My research develops tools that empower users and communities—rather than centralized platforms—to define and manage their online experiences.
 
-<center style="padding: 10px;">
-<img src="/media/0001.jpg"
-     alt="System Model of Dakter Bari."
-     style="max-width: 100%;" />
-</center>
+This work includes:
+- Designing and evaluating personalized content filtering mechanisms that respect user agency
+- Exploring how AI can support community-defined moderation standards
+- Investigating how different stakeholders perceive fairness in moderation systems
 
-With critical insights from our field study, we design, iteratively develop, deploy, and user-test such a solution called ***Dakter Bari*** in the field. The usage of the system for more than six months registering nearly 500 service requests demonstrates its efficacy in bridging the gap we identified in our study.
+### Policy & Governance in Social Computing
 
-**Publication:** [Dakter Bari: Introducing Intermediary to Ensure Healthcare Services to Extremely Impoverished People](/content/papers/dakter_bari.pdf) (ACM CSCW 2021)
+I'm interested in democratizing decision-making around content moderation and platform governance. This research stream examines:
+- How platforms can implement more transparent governance models
+- The tension between platform/corporate interests and community well-being
+- Design interventions that reduce risks of centralized control, biases, and echo chambers
 
-### Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh
+### Ethics of Attention Economy & Pro-Social Platforms
 
-Most scholarly discussions around ridesharing applications center on the experiences of the drivers and the riders (passengers), and thus the role of the owners of the cars, if they are different from the drivers, remain understudied. However, in many countries in the Global South, the car owners are often different from the car drivers, and the tensions between them often shape the experience with these ridesharing apps in those countries.
+Current social media platforms are designed to maximize engagement, often at the expense of user well-being and social cohesion. My research in this area:
+- Critiques existing attention economy designs 
+- Develops alternatives that prioritize community well-being over engagement metrics
+- Creates and evaluates scalable systems aligned with users' values rather than advertising metrics
 
-<center style="padding: 10px;">
-<img src="/media/collage.jpg"
-     alt="How Uber in Bangladesh deviates from traditional sharing economy"
-     style="max-width: 100%;" />
-</center>
+### AI in Unconventional Contexts (Spiritual/Social Computing)
 
-In this paper we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We identify the contract models that facilitate the partnership between prospective Uber drivers without a car and car owners seeking to rent their cars for Uber, describe the tensions between these two parties, provide a nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.**
+I'm exploring how AI and social computing might support deeper and more reflective experiences online. This emerging research direction investigates:
+- How AI might facilitate more meaningful connections in digital spaces
+- The role of technology in supporting spiritual and contemplative practices
+- Expanding our understanding of what digital communities can be, who they serve, and how they function beyond commercial interests
 
-**Publication:** [Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh](/content/papers/uber.pdf) (ACM CSCW 2021)
+## Previous Research
 
-### Understanding Internet Usage in Rural Bangladesh: Effect of Seasonal Migration and Overseas Employment
+My previous work has examined technology in marginalized and underserved communities, with a focus on how technology adoption reflects and sometimes reinforces existing social dynamics:
 
-In this project, we have collected internet usage data in rural areas from a large countrywide survey. With data collected from more than 8000 participants, we are working on analyzing how overseas employment--one of the biggest earning sources in rural families in Bangladesh-- and migration are shaping up the internet usage pattern, expectation, and strategies to minimize the costs.
+### Healthcare Accessibility for Marginalized Communities
 
-**Status:** Manuscript in preparation in collaboration with [ICT Division, Government of Bangladesh](https://ictd.gov.bd/)
-
-## Electronic Waste, Repair & Sustainability
-
-### Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh
-
-COVID-19 disrupted the existing ecosystem of technology repair and recycle in Bangladesh as visiting repair workshops became difficult and most repairers and e-waste workers had to temporarily close their businesses. Consequently, users were left with very few choices for fixing or recycling their devices. Based on our interviews with 30 repair and e-waste workers and 21 users of electronic devices we capture various aspects of this disruption and the corresponding coping mechanisms.
+**[Dakter Bari (CSCW'21)](/content/papers/dakter_bari.pdf)**  
+This project focused on extending healthcare systems to extremely impoverished people in Bangladesh. We designed, developed, and deployed an intermediary-based solution that bridges the gap between available healthcare services and marginalized populations without access to technology.
 
 <center style="padding: 10px;">
-<img src="/media/ewaste1.JPG"
-     style="max-width: 100%;" />
+<img src="/media/0001.jpg" alt="System Model of Dakter Bari" style="max-width: 100%;" />
 </center>
 
-This paper reports **how the repair and e-waste worker communities adopted various changes to their work**, provided remote services, and yet faced a decline in their business. On the other hand, **end-users learned to fix their devices**, collaborated with each other, and **negotiated with partially broken devices** to address this challenge.
+### Platform Economics and Social Inequality
 
-**Publication:** [Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh](/content/papers/pandemic_repair.pdf) (ACM COMPASS 2021)
+**[Uber in Bangladesh (CSCW'21)](/content/papers/uber.pdf)**  
+This study examined how ridesharing platforms operate in Global South contexts, revealing how the local adoption of technology-based sharing economies can amplify existing inequalities and disrupt prevailing social dynamics.
 
-### When and Why End-Users Choose between Discarding and Attempting Self Repair?
+<center style="padding: 10px;">
+<img src="/media/collage.jpg" alt="How Uber in Bangladesh deviates from traditional sharing economy" style="max-width: 100%;" />
+</center>
 
-**Status:** Manuscript in preparation in collaboration with Shion Guha and Syed Ishtiaque Ahmed
+### Technology Resilience During Crisis
+
+**[Technology Repair During COVID-19 (COMPASS'21)](/content/papers/pandemic_repair.pdf)**  
+This work documented how repair and e-waste worker communities adapted to pandemic restrictions, and how end-users developed new repair practices when formal repair services became unavailable.
+
+<center style="padding: 10px;">
+<img src="/media/ewaste1.JPG" style="max-width: 100%;" />
+</center>
 
 ## Publications
 
