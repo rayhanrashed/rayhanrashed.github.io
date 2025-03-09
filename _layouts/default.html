@@ -17,7 +17,7 @@
         .site-nav .container {
             max-width: 800px;
             margin: 0 auto;
-            background-color: #f0f0f0;
+            background-color: #e8e7e7;
             border-radius: 10px;
             padding: 10px 20px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -35,9 +35,9 @@
         .site-nav a {
             text-decoration: none;
             color: #333;
-            font-weight: 600;
+            font-weight: 1000;
             text-transform: uppercase;
-            font-size: 14px;
+            font-size: 15px;
         }
         .site-nav a:hover {
             color: #0056b3;
@@ -59,6 +59,22 @@
             font-weight: 600 !important;
         }
         
+        /* Content width control */
+        .content-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            padding-bottom: 30px;
+            padding-top: 15px;
+        }
+        
+        /* Make the text column narrower for better readability */
+        .readable-content {
+            max-width: 920px;
+            margin: 0 auto;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        
         @media (max-width: 767px) {
             /* Mobile styling for responsive heading */
             .responsive-heading {
@@ -76,6 +92,10 @@
             
             .site-nav a {
                 font-size: 12px;
+            }
+            
+            .readable-content {
+                max-width: 100%;
             }
         }
     </style>
@@ -144,7 +164,7 @@
         
         <div class="container{% if page.class %} {{ page.class }}{% endif %}">
             <div class="content-wrapper">
-                <div class="col-md-12" role="main">
+                <div class="readable-content">
                     {{ content }}
                 </div>
             </div>
@@ -168,16 +188,28 @@
                 padding-top: 10px;
             }
             
-            .content-wrapper {
-                padding-bottom: 30px;
-                padding-top: 15px;
-            }
-            
             /* Additional quote styling */
             blockquote .crimson-quote {
                 display: block;
                 font-style: italic;
                 color: #333;
+            }
+            
+            /* Improve paragraph readability */
+            p {
+                margin-bottom: 1.2em;
+                line-height: 1.6;
+                text-align: justify;
+            }
+            
+            /* Improve list readability */
+            ul, ol {
+                margin-bottom: 1.2em;
+                padding-left: 25px;
+            }
+            
+            li {
+                margin-bottom: 0.5em;
             }
         </style>
     </body>
