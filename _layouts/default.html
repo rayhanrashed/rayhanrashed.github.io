@@ -6,13 +6,21 @@
             width:100% !important;
         }
         .site-nav {
-            background-color: #f8f8f8;
+            background-color: #ffffff;
             padding: 10px 0;
-            border-bottom: 1px solid #e7e7e7;
+            border-bottom: 1px solid #ffffff;
             position: sticky;
             top: 0;
             z-index: 1000;
             width: 100%;
+        }
+        .site-nav .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .site-nav ul {
             list-style-type: none;
@@ -36,6 +44,39 @@
         }
         .site-nav .active a {
             color: #0056b3;
+        }
+        /* Custom Styles for Crimson Pro font on quotes */
+        .crimson-quote {
+            font-family: "Crimson Pro", serif !important;
+            font-weight: normal;
+            font-size: inherit;
+        }
+        
+        /* Responsive heading styles */
+        .responsive-heading {
+            font-size: 1.8em;
+            font-family: "Crimson Pro", serif !important;
+            font-weight: 600 !important;
+        }
+        
+        @media (max-width: 767px) {
+            /* Mobile styling for responsive heading */
+            .responsive-heading {
+                font-size: 1.5em;
+            }
+            
+            .site-nav .container {
+                border-radius: 0;
+                padding: 8px 10px;
+            }
+            
+            .site-nav li {
+                margin: 0 8px;
+            }
+            
+            .site-nav a {
+                font-size: 12px;
+            }
         }
     </style>
 
@@ -129,6 +170,14 @@
             
             .content-wrapper {
                 padding-bottom: 30px;
+                padding-top: 15px;
+            }
+            
+            /* Additional quote styling */
+            blockquote .crimson-quote {
+                display: block;
+                font-style: italic;
+                color: #333;
             }
         </style>
     </body>

@@ -50,7 +50,7 @@ My previous work has examined technology in marginalized and underserved communi
 This project focused on extending healthcare systems to extremely impoverished people in Bangladesh. We designed, developed, and deployed an intermediary-based solution that bridges the gap between available healthcare services and marginalized populations without access to technology.
 
 <center style="padding: 10px;">
-<img src="/media/0001.jpg" alt="System Model of Dakter Bari" style="max-width: 100%;" />
+<img src="/media/0001.jpg" alt="System Model of Dakter Bari" style="max-width: 50%;" />
 </center>
 
 ### Platform Economics and Social Inequality
@@ -59,7 +59,7 @@ This project focused on extending healthcare systems to extremely impoverished p
 This study examined how ridesharing platforms operate in Global South contexts, revealing how the local adoption of technology-based sharing economies can amplify existing inequalities and disrupt prevailing social dynamics.
 
 <center style="padding: 10px;">
-<img src="/media/collage.jpg" alt="How Uber in Bangladesh deviates from traditional sharing economy" style="max-width: 100%;" />
+<img src="/media/collage.jpg" alt="How Uber in Bangladesh deviates from traditional sharing economy" style="max-width: 50%;" />
 </center>
 
 ### Technology Resilience During Crisis
@@ -68,7 +68,7 @@ This study examined how ridesharing platforms operate in Global South contexts, 
 This work documented how repair and e-waste worker communities adapted to pandemic restrictions, and how end-users developed new repair practices when formal repair services became unavailable.
 
 <center style="padding: 10px;">
-<img src="/media/ewaste1.JPG" style="max-width: 100%;" />
+<img src="/media/ewaste1.JPG" style="max-width: 50%;" />
 </center>
 
 ## Publications
