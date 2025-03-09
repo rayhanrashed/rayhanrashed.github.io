@@ -4,30 +4,35 @@ author: Rayhan Rashed
 url: "https://rayhan.io"
 base: ''
 twitter: '@rayhanrashed'
-
+description: "Personal academic website of Rayhan Rashed"
 markdown: kramdown
 kramdown:
     enable_coderay: false
     auto_ids: false
     entity_output: symbolic
 highlighter: rouge
-
 exclude:
     - bower_components
     - node_modules
     - package.json
     - bower.json
     - drafts
-
 navigation:
-    - title: about
+    - title: About
       link: /index.html
-    - title: research
+    - title: Research
       link: /research.html
+    - title: Blog
+      link: /blog.html
     - title: CV
       link: /content/CV.pdf
-
 theme: jekyll-theme-minimal
-
 sass:
   sass_dir: _sass
+permalink: /blog/:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

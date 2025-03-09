@@ -8,7 +8,43 @@ layout: default
 {{ content }}
 </article>
 
+<div class="post-navigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+  {% endif %}
+  
+  {% if page.next.url %}
+    <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+  {% endif %}
+</div>
+
 <footer>If you have something to say about this post, 
-<a href="mailto:metaxa@stanford.edu">email me</a> or 
-<a href="https://twitter.com/dmetaxak">tweet</a> at me.
+<a href="mailto:rayhan@cs.toronto.edu">email me</a> or 
+<a href="https://twitter.com/rayhanrashed">tweet</a> at me.
 </footer>
+
+<style>
+  .with-tagline {
+    margin-bottom: 5px;
+  }
+  .tagline {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  .next {
+    margin-left: auto;
+  }
+  footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    color: #666;
+    font-size: 0.9em;
+  }
+</style>

@@ -1,52 +1,77 @@
 ---
 layout: default
 ---
-
-<div class="row col-md-3">
-	
-	<img class="rigamanga" src="rayhan.jpg" alt="rayhan">
-	<h1>Rayhan Rashed</h1>
-	<p style="text-align:center;">
-		Lecturer, Computer Science, BUET <br>
-		Research Engineer, SDAIA 
-	</p>
-		<br>
-	<div class="row text-center" id="contact-items">
-		<a style="padding-right:20px !important" href="content/Rayhan_Rashed_CV.pdf"><i class="ai ai-cv ai-2x"></i></a>
-		<a style="padding-right:20px !important" href="https://scholar.google.com/citations?user=6O9kQYAAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-		<a style="padding-right:20px !important" href="mailto:rayhan@cs.toronto.edu"><i class="fa fa-envelope-o fa-2x"></i></a>
-		<a href="https://www.twitter.com/rayhanrashed"><i class="fa fa-twitter fa-2x"></i></a>
-	</div>
-	<br>
-	<h3 style="text-align:center;">Updates</h3>
-	<p class="update">
-		<strong>11/2023</strong> - Excited to join Saudi Data & AI Authority (SDAIA) as research engineer! 
-	</p>
-	<p class="update">
-		<strong>10/2023</strong> - Got 2/2 Outstanding Review Recognition for CHI'24! 
-	</p>
-	<p class="update">
-		<strong>08/2023</strong> - Our work on rural internet and digital divide was presented to a policy level conference arranged by the German Embassy 
-	</p>
-
-
-	
-	
-	<h3 style="text-align:center;">Reading Now</h3>
-	<center style="padding: 10px;">
-		<img src="media/bb.jpg"
-			 alt="Bayesian Methods For Hackers: Probabilistic Programming And Bayesian Inference"
-			 style="max-width: 110px;" />
-		<img src="media/audits.jpeg"
-		 	 alt="Auditing Algorithms: Understanding Algorithmic Systems from the Outside In"
-			 style="max-width: 102px;" />
-	</center>
-	<p style="text-align:center">Alternating between these two books.  Next in line: <strong>Causal Inference: What If </strong> by Miguel Angel Hernán</p>
-
-
+<div class="row">
+    <div class="col-md-3 sidebar">
+        <img class="profile-image" src="RJS3488.jpg" alt="rayhan">
+        <h1>Rayhan Rashed</h1>
+        <p style="text-align:center;">
+            CS PhD Student, University of Michigan <br>
+        </p>
+        <br>
+        <div class="row text-center" id="contact-items">
+            <a style="padding-right:20px !important" href="content/Rayhan_Rashed_CV.pdf"><i class="ai ai-cv ai-2x"></i></a>
+            <a style="padding-right:20px !important" href="https://scholar.google.com/citations?user=6O9kQYAAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+            <a style="padding-right:20px !important" href="mailto:rayhan@cs.toronto.edu"><i class="fa fa-envelope-o fa-2x"></i></a>
+            <a href="https://www.twitter.com/rayhanrashed"><i class="fa fa-twitter fa-2x"></i></a>
+        </div>
+        <br>
+        
+        <!-- Updates section -->
+        <div class="sidebar-section">
+            <h3 style="text-align:center;">Updates</h3>
+            {% if page.updates %}
+                {% for update in page.updates %}
+                <p class="update">
+                    <strong>{{ update.date }}</strong> - {{ update.text }}
+                </p>
+                {% endfor %}
+            {% endif %}
+        </div>
+        
+        <!-- Reading Now section -->
+        <div class="sidebar-section">
+            <h3 style="text-align:center;">Reading Now</h3>
+            <center style="padding: 10px;">
+                {% if page.reading_now %}
+                    {% for book in page.reading_now %}
+                    <img src="{{ book.image }}"
+                         alt="{{ book.title }}"
+                         style="max-width: 110px; margin: 5px;" />
+                    {% endfor %}
+                {% endif %}
+            </center>
+            <p style="text-align:center">
+                {{ page.reading_description }}
+            </p>
+        </div>
+    </div>
+    
+    <div class="col-md-8 blurb" style="padding-left: 0px;padding-right: 0px;">
+        <div class="rigarow" style="text-align:justify;">{{ content }}</div>
+    </div>
 </div>
 
-<div class="col-md-8 blurb" style="padding-left: 0px;padding-right: 0px;">
-    <div class="rigarow" style="text-align:justify;">{{ content }}</div>
-</div>
+<style>
+    .profile-image {
+        max-width: 100%;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    .sidebar {
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .sidebar-section {
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #eee;
+    }
+    .update {
+        margin-bottom: 10px;
+        font-size: 0.9em;
+    }
+</style>
 

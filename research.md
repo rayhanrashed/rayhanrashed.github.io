@@ -1,41 +1,69 @@
 ---
 title: Research
-layout: longy
-blurb: |
+layout: default
+permalink: /research/
 ---
 
-## Research
+# Research Projects
 
-Below is a selection of recent projects; see my [Google Scholar][GS] page for my full publication record.
+Below is a selection of my research projects focusing on the intersection of social computing, participatory & responsible AI, civic technology, and policy.
 
-### Political Bias in Web Search
-**Metaxa, D.**, Park, JS., Landay, JA., and Hancock, J. Search Media and Elections: A Longitudinal Investigation of Political Search Results in the 2018 U.S. Elections. To appear at CSCW 2019.
+## Contextualized Technology, Internet & Underserved Communities
 
+### Dakter Bari: Healthcare, Marginalized Community & Infomediaries
+<span style="color:green"><b>NOTE:</b></span> <u>I am really proud of this work and the impact it created!</u>
 
-Concern about algorithmically-curated content and its impact on democracy is reaching a fever pitch worldwide. But relative to the role of social media in electoral processes, the role of search results has received less public attention. We develop a theoretical conceptualization of search results as a form of media-_search media_-and analyze search media in the context of political partisanship in the six months leading up to the 2018 U.S. midterm elections. Our empirical analyses use a total of over 4 million URLs, scraped daily from Google search queries for all candidates running for federal office in the United States in 2018. In our first set of analyses we characterize the nature of search media from the data collected in terms of the types of URLs present and the stability of search results over time. In our second, we annotate URLs' top-level domains with existing measures of political partisanship, examining trends by incumbency, election outcome, and other election characteristics. Among other findings, we note that partisanship trends in search media are largely similar for content about candidates from the two major political parties, whereas there are substantial differences in search media for incumbent versus challenger candidates. This work suggests that longitudinal, systematic audits of search media can reflect real-world political trends. We conclude with implications for web search designers and consumers of political content online. 
+Bangladesh (a low-income country) has a significant number of people dependent on alms for daily survival. These extremely impoverished people are deprived of even basic healthcare. Their extreme levels of poverty, coupled with low literacy skills, and complete lack of access to technology means that they are unaware of existing low-cost/free healthcare services--arranged by local hospitals, NGOs, charity organizations. In this paper, we ask: **How can we extend the existing healthcare systems to this marginalized community?**
 
-**Metaxa, D.** and Torres-Echeverry, N. Google's Role in Spreading Fake News and Misinformation. Available at [SSRN][ssrn].
+<center style="padding: 10px;">
+<img src="/media/0001.jpg"
+     alt="System Model of Dakter Bari."
+     style="max-width: 100%;" />
+</center>
 
-This mixed-methods whitepaper summarizes some of the history of web search and its manipulation in the context of politics, relying on preliminary analysis of data collected around the 2016 U.S. presidential election, as well as a series of interviews with key researchers in the field. 
+With critical insights from our field study, we design, iteratively develop, deploy, and user-test such a solution called ***Dakter Bari*** in the field. The usage of the system for more than six months registering nearly 500 service requests demonstrates its efficacy in bridging the gap we identified in our study.
 
-**Metaxa, D.**, Rusak, G., Teevan, J., and Bernstein, M. The Web is Flat: The Inflation of Uncommon Experiences Online. CHI 2016. _Best Short Paper._
+**Publication:** [Dakter Bari: Introducing Intermediary to Ensure Healthcare Services to Extremely Impoverished People](/content/papers/dakter_bari.pdf) (ACM CSCW 2021)
 
-People populate the web with content relevant to their lives, content that millions of others rely on for information and guidance. However, the web is not a perfect representation of lived experience: some topics appear in greater proportion online than their true incidence in our population, while others are deflated. This paper presents a large scale data collection study of this phenomenon. We collect webpages about 21 topics of interest capturing roughly 200,000 webpages, and then compare each topic's popularity to representative national surveys. We find that rare experiences are inflated on the web (by a median of 7x), while common experiences are deflated (by a median of 0.7x). We call this phenomenon novelty bias.
+### Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh
 
-This project is ongoing and with the help of Jared Bitz and Mo Tiwari will soon emerge in a new form: we are using Common Crawl's archive of the web to mine the entire web at different points in time and analyze political opinions online in relation to in public opinion. 
+Most scholarly discussions around ridesharing applications center on the experiences of the drivers and the riders (passengers), and thus the role of the owners of the cars, if they are different from the drivers, remain understudied. However, in many countries in the Global South, the car owners are often different from the car drivers, and the tensions between them often shape the experience with these ridesharing apps in those countries.
 
+<center style="padding: 10px;">
+<img src="/media/collage.jpg"
+     alt="How Uber in Bangladesh deviates from traditional sharing economy"
+     style="max-width: 100%;" />
+</center>
 
-### Gender Bias in Web Interfaces
-**Metaxa, D.**, Wang, K., Landay, J., and Hancock, J. Gender-Inclusive Design: Sense of Belonging and Bias in Web Interfaces. [CHI 2018][chi18]. 
+In this paper we dig deeper into this issue based on our interview-based study in Dhaka, Bangladesh. We identify the contract models that facilitate the partnership between prospective Uber drivers without a car and car owners seeking to rent their cars for Uber, describe the tensions between these two parties, provide a nuanced cultural portrayal of their negotiation mechanisms, and highlight the reasons for which the driver or the owner leaves Uber. Our analysis reveals **how the local adoption of technology based sharing economy amplifies existing inequalities and disrupts the prevailing social dynamics.**
 
-We interact with dozens of web interfaces on a daily basis, making inclusive web design practices more important than ever. This paper investigates the impacts of web interface design on ambient belonging, or the sense of belonging to a community or culture. Our experiment deployed two content-identical webpages for an introductory computer science course, differing only in aesthetic features such that one was perceived as masculine while the other was gender-neutral. Our results confirm that young women exposed to the masculine page are negatively affected, reporting significantly less ambient belonging, interest in the course and in studying computer science broadly. They also experience significantly more concern about others’ perception of their gender relative to young women exposed to the neutral page, while no similar effect is seen in young men. These results suggest that gender biases can be triggered by web design, highlighting the need for inclusive user interface design for the web.
+**Publication:** [Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh](/content/papers/uber.pdf) (ACM CSCW 2021)
 
-### Social Ties and Natural Disasters
-**Metaxa, D.**, Maas, P. and Aldrich, DP. How Social Ties Influence Hurricane Evacuation Behavior. [CSCW 2018][cscw19].
+### Understanding Internet Usage in Rural Bangladesh: Effect of Seasonal Migration and Overseas Employment
 
-Natural disasters carry enormous costs every year, both in terms of lives and materials. Evacuation from potentially affected areas stands out among the most critical factors that can reduce mortality and vulnerability to crisis. We know surprisingly little about the factors that drive this important and often life-saving behavior, though recent work has suggested that social capital may play a critical and previously underestimated role in disaster preparedness. Moving beyond retrospective self-reporting and vehicle count estimates, we use social media data to examine connections between levels of social capital and evacuation behavior. This work is the first of its kind, examining these phenomena across three major disasters in the United States—Hurricane Harvey, Hurricane Irma, and Hurricane Maria—using aggregated, de-identified data from over 1.5 million Facebook users. Our analysis confirms that, holding confounding factors constant, several aspects of social capital are correlated with whether or not an individual evacuates. Higher levels of bridging and linking social ties correlate strongly with evacuation. However, these social capital related factors are not significantly associated with the rate of return after evacuation.
+In this project, we have collected internet usage data in rural areas from a large countrywide survey. With data collected from more than 8000 participants, we are working on analyzing how overseas employment--one of the biggest earning sources in rural families in Bangladesh-- and migration are shaping up the internet usage pattern, expectation, and strategies to minimize the costs.
 
-[ssrn]: https://ssrn.com/abstract=3062984
-[chi18]: https://dl.acm.org/citation.cfm?id=3173574.3174188
-[GS]: https://scholar.google.com/citations?user=6pA2wn4AAAAJ&hl=en&oi=ao
-[cscw19]: https://dl.acm.org/citation.cfm?id=3274391
+**Status:** Manuscript in preparation in collaboration with [ICT Division, Government of Bangladesh](https://ictd.gov.bd/)
+
+## Electronic Waste, Repair & Sustainability
+
+### Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh
+
+COVID-19 disrupted the existing ecosystem of technology repair and recycle in Bangladesh as visiting repair workshops became difficult and most repairers and e-waste workers had to temporarily close their businesses. Consequently, users were left with very few choices for fixing or recycling their devices. Based on our interviews with 30 repair and e-waste workers and 21 users of electronic devices we capture various aspects of this disruption and the corresponding coping mechanisms.
+
+<center style="padding: 10px;">
+<img src="/media/ewaste1.JPG"
+     style="max-width: 100%;" />
+</center>
+
+This paper reports **how the repair and e-waste worker communities adopted various changes to their work**, provided remote services, and yet faced a decline in their business. On the other hand, **end-users learned to fix their devices**, collaborated with each other, and **negotiated with partially broken devices** to address this challenge.
+
+**Publication:** [Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh](/content/papers/pandemic_repair.pdf) (ACM COMPASS 2021)
+
+### When and Why End-Users Choose between Discarding and Attempting Self Repair?
+
+**Status:** Manuscript in preparation in collaboration with Shion Guha and Syed Ishtiaque Ahmed
+
+## Publications
+
+For a complete list of my publications, please see my [Google Scholar](https://scholar.google.com/citations?user=6O9kQYAAAAAJ) profile.

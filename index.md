@@ -1,7 +1,13 @@
 ---
 layout: home
+updates:
+  - date: "09/2024"
+    text: "Excited to start my PhD journey with awesome Farnaz Jahanbakhsh!"
+  - date: "11/2024"
+    text: "Got 2/2 Outstanding Review Recognition for CHI'25!"
+  - date: "06/2024"
+    text: "Received Prime Minister's Award for the best MS student in the ICT sector in Bangladesh [here]"
 ---
-
 ## Looking for PhD positions starting in Fall 2024!
 
 
