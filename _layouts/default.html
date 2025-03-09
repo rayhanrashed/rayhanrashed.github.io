@@ -8,8 +8,11 @@
         .site-nav {
             background-color: #f8f8f8;
             padding: 10px 0;
-            margin-bottom: 20px;
             border-bottom: 1px solid #e7e7e7;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            width: 100%;
         }
         .site-nav ul {
             list-style-type: none;
@@ -99,8 +102,10 @@
         </nav>
         
         <div class="container{% if page.class %} {{ page.class }}{% endif %}">
-            <div class="col-md-12" role="main">
-                {{ content }}
+            <div class="content-wrapper">
+                <div class="col-md-12" role="main">
+                    {{ content }}
+                </div>
             </div>
         </div>
 
@@ -115,5 +120,16 @@
             src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
         </script>
         {% endif %}
+        
+        <style>
+            body {
+                /* Add padding to prevent content from hiding behind sticky navbar on scroll */
+                padding-top: 10px;
+            }
+            
+            .content-wrapper {
+                padding-bottom: 30px;
+            }
+        </style>
     </body>
 </html>

@@ -2,8 +2,11 @@
 layout: default
 ---
 <div class="row">
-    <div class="col-md-3 sidebar">
-        <img class="profile-image" src="RJS3488.jpg" alt="rayhan">
+    <!-- Sidebar with image and info - visible on desktop -->
+    <div class="col-md-3 sidebar d-none d-md-block">
+        <div class="image-container">
+            <img class="profile-image" src="RJS3488.jpg" alt="Rayhan Rashed">
+        </div>
         <h1>Rayhan Rashed</h1>
         <p style="text-align:center;">
             CS PhD Student, University of Michigan <br>
@@ -12,7 +15,7 @@ layout: default
         <div class="row text-center" id="contact-items">
             <a style="padding-right:20px !important" href="content/Rayhan_Rashed_CV.pdf"><i class="ai ai-cv ai-2x"></i></a>
             <a style="padding-right:20px !important" href="https://scholar.google.com/citations?user=6O9kQYAAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-            <a style="padding-right:20px !important" href="mailto:rayhan@cs.toronto.edu"><i class="fa fa-envelope-o fa-2x"></i></a>
+            <a style="padding-right:20px !important" href="mailto:rayrash@umich.edu"><i class="fa fa-envelope-o fa-2x"></i></a>
             <a href="https://www.twitter.com/rayhanrashed"><i class="fa fa-twitter fa-2x"></i></a>
         </div>
         <br>
@@ -31,47 +34,185 @@ layout: default
         
         <!-- Reading Now section -->
         <div class="sidebar-section">
+            {% if page.reading_now %}
             <h3 style="text-align:center;">Reading Now</h3>
             <center style="padding: 10px;">
-                {% if page.reading_now %}
-                    {% for book in page.reading_now %}
-                    <img src="{{ book.image }}"
-                         alt="{{ book.title }}"
-                         style="max-width: 110px; margin: 5px;" />
-                    {% endfor %}
-                {% endif %}
+                {% for book in page.reading_now %}
+                <img src="{{ book.image }}"
+                     alt="{{ book.title }}"
+                     style="max-width: 110px; margin: 5px;" />
+                {% endfor %}
             </center>
             <p style="text-align:center">
                 {{ page.reading_description }}
             </p>
+            {% endif %}
         </div>
     </div>
     
+    <!-- Mobile header - only visible on mobile -->
+    <div class="col-12 mobile-header d-md-none">
+        <div class="mobile-profile-container">
+            <div class="mobile-image-container">
+                <img class="profile-image" src="RJS3488.jpg" alt="Rayhan Rashed">
+            </div>
+            <div class="mobile-info-container">
+                <h1>Rayhan Rashed</h1>
+                <p>CS PhD Student, University of Michigan</p>
+                <div class="mobile-contact-items">
+                    <a href="content/Rayhan_Rashed_CV.pdf"><i class="ai ai-cv ai-lg"></i></a>
+                    <a href="https://scholar.google.com/citations?user=6O9kQYAAAAAJ"><i class="ai ai-google-scholar-square ai-lg"></i></a>
+                    <a href="mailto:rayhan@cs.toronto.edu"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    <a href="https://www.twitter.com/rayhanrashed"><i class="fa fa-twitter fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main content column -->
     <div class="col-md-8 blurb" style="padding-left: 0px;padding-right: 0px;">
         <div class="rigarow" style="text-align:justify;">{{ content }}</div>
+    </div>
+    
+    <!-- Mobile sidebar - only visible on mobile -->
+    <div class="col-12 mobile-sidebar d-md-none">
+        <!-- Updates section -->
+        <div class="sidebar-section">
+            <h3 style="text-align:center;">Updates</h3>
+            {% if page.updates %}
+                {% for update in page.updates %}
+                <p class="update">
+                    <strong>{{ update.date }}</strong> - {{ update.text }}
+                </p>
+                {% endfor %}
+            {% endif %}
+        </div>
+        
+        <!-- Reading Now section -->
+        <div class="sidebar-section">
+            {% if page.reading_now %}
+            <h3 style="text-align:center;">Reading Now</h3>
+            <div class="reading-grid">
+                {% for book in page.reading_now %}
+                <div class="book-item">
+                    <img src="{{ book.image }}" alt="{{ book.title }}" />
+                </div>
+                {% endfor %}
+            </div>
+            <p style="text-align:center">
+                {{ page.reading_description }}
+            </p>
+            {% endif %}
+        </div>
     </div>
 </div>
 
 <style>
+    /* Common styles for both layouts */
     .profile-image {
         max-width: 100%;
         border-radius: 15px;
         margin-bottom: 15px;
     }
+    
     .sidebar {
         padding: 15px;
         background-color: #f9f9f9;
         border-radius: 5px;
         margin-bottom: 20px;
     }
+    
     .sidebar-section {
         margin-top: 20px;
         padding-top: 10px;
         border-top: 1px solid #eee;
     }
+    
     .update {
         margin-bottom: 10px;
         font-size: 0.9em;
+    }
+    
+    /* Image container for standard size */
+    .image-container {
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    
+    /* Mobile specific styles */
+    .mobile-header {
+        margin-bottom: 20px;
+    }
+    
+    .mobile-profile-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .mobile-image-container {
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-right: 15px;
+        flex-shrink: 0;
+    }
+    
+    .mobile-info-container {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .mobile-info-container h1 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 24px;
+    }
+    
+    .mobile-contact-items {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+    }
+    
+    .mobile-sidebar {
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    
+    .reading-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .book-item img {
+        max-width: 100px;
+        border: 1px solid #eee;
+    }
+    
+    /* Bootstrap utility classes for responsive visibility */
+    @media (min-width: 768px) {
+        .d-md-block {
+            display: block !important;
+        }
+        .d-md-none {
+            display: none !important;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .d-none {
+            display: none !important;
+        }
     }
 </style>
 
