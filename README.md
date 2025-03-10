@@ -46,7 +46,7 @@ bundle exec jekyll serve --livereload
 - `index.md` - Homepage content
 - `research.md` - Research page content
 - `blog.html` - Blog listing page
-- `personal.html` - Personal interests page
+- `personal.md` - Personal interests page with book display
 - `_layouts/` - HTML templates for different page types
 - `_posts/` - Blog post files (format: YYYY-MM-DD-title.md)
 - `assets/` - CSS, JavaScript, and other assets
@@ -72,7 +72,7 @@ bundle exec jekyll serve --livereload
 
 - **Blog Posts**: Add new `.md` files in the `_posts` directory with the format `YYYY-MM-DD-title.md`
 - **Research Projects**: Edit `research.md` to update your research information
-- **Personal Interests**: Edit `personal.html` to customize the personal section
+- **Personal Interests**: Edit `personal.md` to customize the personal section
 
 ### Navigation
 

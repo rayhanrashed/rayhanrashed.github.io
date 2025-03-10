@@ -24,7 +24,7 @@ Hi, I'm **Rayhan** ("Raye-haan"), a PhD student in **Human-Computer Interaction 
 I research and design social computing systems aimed at achieving ethical, pro-social outcomes aligned with user preferences and community values. I complement hands-on system design with rigorous mixed-method studies, driven by one overarching question:
 
 
-> **_How can AI-powered civic technologies empower communities to shape their digital—and social—experiences?_**
+> **```How can AI-powered civic technologies empower communities to shape their digital—and social—experiences?```**
 
 I explore several interconnected areas:
 

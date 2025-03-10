@@ -2,9 +2,19 @@
 title: Personal
 layout: default
 permalink: /personal/
+books:
+  - title: "Bayesian Methods For Hackers"
+    subtitle: "Probabilistic Programming and Bayesian Inference"
+    image: "/media/bb.jpg"
+  - title: "Auditing Algorithms"
+    subtitle: "Understanding Algorithmic Systems from the Outside In"
+    image: "/media/audits.jpg"
+  - title: "Causal Inference: What If"
+    subtitle: "by Miguel Angel Hernán"
+    image: "/media/whatif.jpg"
 ---
 
-<div class="container">
+<div class="readable-content">
   <h1>Outside of Research</h1>
   
   <div class="personal-section">
@@ -12,23 +22,18 @@ permalink: /personal/
     <p>I enjoy reading books on a variety of topics. Here are some books I've recently enjoyed:</p>
     
     <div class="book-grid">
+      {% for book in page.books %}
       <div class="book">
-        <img src="/media/bb.jpg" alt="Bayesian Methods For Hackers">
-        <p><strong>Bayesian Methods For Hackers</strong></p>
-        <p><em>Probabilistic Programming and Bayesian Inference</em></p>
+        <div class="book-cover">
+          <img src="{{ book.image }}" alt="{{ book.title }}">
+          <div class="book-info">
+            <p class="book-title">{{ book.title }}</p>
+            <p class="book-subtitle">{{ book.subtitle }}</p>
+          </div>
+        </div>
+        <!-- <p class="visible-title"><strong>{{ book.title }}</strong></p> -->
       </div>
-      
-      <div class="book">
-        <img src="/media/audits.jpg" alt="Auditing Algorithms">
-        <p><strong>Auditing Algorithms</strong></p>
-        <p><em>Understanding Algorithmic Systems from the Outside In</em></p>
-      </div>
-      
-      <div class="book">
-        <img src="/media/whatif.jpg" alt="Causal Inference: What If">
-        <p><strong>Causal Inference: What If</strong></p>
-        <p><em>by Miguel Angel Hernán</em></p>
-      </div>
+      {% endfor %}
     </div>
   </div>
   
@@ -69,20 +74,74 @@ permalink: /personal/
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
+    justify-content: flex-start;
   }
   
   .book {
-    width: 200px;
+    width: 180px;
     text-align: center;
+    margin-bottom: 20px;
   }
   
-  .book img {
-    max-width: 150px;
-    height: auto;
-    margin-bottom: 10px;
+  .book-cover {
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   }
   
-  .book p {
-    margin: 5px 0;
+  .book-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .book-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.86);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+  }
+  
+  .book-cover:hover img {
+    transform: scale(1.1);
+  }
+  
+  .book-cover:hover .book-info {
+    opacity: 1;
+  }
+  
+  .book-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .book-subtitle {
+    font-size: 12px;
+    font-style: italic;
+  }
+  
+  .visible-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  /* Ensure content stays within the readable area */
+  .readable-content {
+    max-width: 750px;
+    margin: 0 auto;
   }
 </style>

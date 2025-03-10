@@ -1,27 +1,36 @@
 ---
 layout: default
 ---
-<h2 class="with-tagline">{{ page.title }}</h2>
-<p class="tagline">{{ page.date | date_to_long_string }}</p>
+<article class="post-content">
+  <h2 class="with-tagline">{{ page.title }}</h2>
+  <p class="tagline">{% if page.date %}{{ page.date | date_to_long_string }}{% endif %}</p>
 
-<article class="full">
-{{ content }}
+  {% if page.featured_image %}
+  <div class="featured-image-container">
+    <img src="{{ page.featured_image }}" alt="Featured image for {{ page.title }}" class="featured-image">
+  </div>
+  {% endif %}
+
+  <div class="full">
+    {{ content }}
+  </div>
+
+  <div class="post-navigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+    {% endif %}
+    
+    {% if page.next.url %}
+      <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+    {% endif %}
+  </div>
+
+  <div class="post-footer">
+    If you have something to say about this post, 
+    <a href="mailto:rayrash@umich.edu">email me</a> or 
+    <a href="https://twitter.com/rayhanrashed">tweet</a> at me.
+  </div>
 </article>
-
-<div class="post-navigation">
-  {% if page.previous.url %}
-    <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
-  {% endif %}
-  
-  {% if page.next.url %}
-    <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
-  {% endif %}
-</div>
-
-<footer>If you have something to say about this post, 
-<a href="mailto:rayrash@umich.edu">email me</a> or 
-<a href="https://twitter.com/rayhanrashed">tweet</a> at me.
-</footer>
 
 <style>
   .with-tagline {
@@ -40,11 +49,31 @@ layout: default
   .next {
     margin-left: auto;
   }
-  footer {
+  .post-footer {
     margin-top: 30px;
     padding-top: 10px;
     border-top: 1px solid #eee;
     color: #666;
     font-size: 0.9em;
+    position: relative;
+    bottom: auto;
+  }
+  .featured-image-container {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .featured-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .post-content {
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .full {
+    margin-top: 20px;
   }
 </style>

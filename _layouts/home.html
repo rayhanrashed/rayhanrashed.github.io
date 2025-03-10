@@ -70,9 +70,9 @@ CS PhD Student<br>University of Michigan
         </div>
     </div>
     
-    <!-- Main content column -->
-    <div class="col-md-8 blurb home-content">
-        <div class="rigarow" style="text-align:justify;">{{ content }}</div>
+    <!-- Main content column - Using col-md-9 instead of col-md-8 to match other pages -->
+    <div class="col-md-9 blurb home-content">
+        <div class="limited-width rigarow" style="text-align:justify;">{{ content }}</div>
     </div>
     
     <!-- Mobile sidebar - only visible on mobile -->
@@ -147,8 +147,14 @@ margin-top: 4px;
     
     /* Home content specific styling */
     .home-content {
-        padding-left: 5px;
-        padding-right: 10px;
+        padding-left: 20px;
+		padding-right: 20px;
+    }
+    
+    /* Add this limited width class to match other pages */
+    .limited-width {
+        max-width: 750px;
+        margin: 0 auto;
     }
     
     .rigarow {
@@ -171,7 +177,7 @@ margin-top: 4px;
         height: 120px;
         overflow: hidden;
         border-radius: 15px;
-        margin-right: 15px;
+        margin-left: 40px;
         flex-shrink: 0;
     }
     

@@ -29,7 +29,10 @@ navigation:
 theme: jekyll-theme-minimal
 sass:
   sass_dir: _sass
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
+collections:
+  posts:
+    output: true
 defaults:
   - scope:
       path: ""
