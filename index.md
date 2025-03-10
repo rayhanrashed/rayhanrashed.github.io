@@ -17,12 +17,11 @@ updates:
 # reading_description: "Alternating between these two books. Next in line: <strong>Causal Inference: What If </strong> by Miguel Angel Hernán"
 ---
 
-<h2 class="responsive-heading">Social Computing × AI × Policy</h2>
+<h2 class="responsive-heading">Social Computing × AI × Governance</h2>
 
-Hi, I'm **Rayhan** ("Raye-haan"), a PhD student passionate about **Social Computing** and **AI & Tech Governance.** I work with awesome [Farnaz Jahanbakhsh](https://people.csail.mit.edu/farnazj/) at the [University of Michigan](https://www.umich.edu).
+Hi, I'm **Rayhan** ("Raye-haan"), a PhD student passionate about **Social Computing** and **AI & Tech Governance.** I work with awesome [Farnaz Jahanbakhsh](https://people.csail.mit.edu/farnazj/) at the [University of Michigan](https://www.umich.edu). Outside research, I’m a husband 👨‍❤️‍👩 and a Chelsea fan <img src="media/Chelsea_FC.png" alt="Chelsea FC" style="width:20px;height:20px;vertical-align:middle;transform:translate(0%, -13%);;">!
 
-I research and design social computing systems aimed at achieving ethical, pro-social outcomes aligned with user preferences and community values. I complement hands-on system design with rigorous mixed-method studies, driven by one overarching question:
-
+I design social computing systems aimed at achieving ethical, pro-social outcomes aligned with user preferences and community values. I complement hands-on system design with rigorous mixed-method studies, driven by one overarching question:
 
 >**```How can AI-powered civic technologies empower communities to shape their digital—and social—experiences?```**
 
