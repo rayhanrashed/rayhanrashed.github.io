@@ -9,7 +9,10 @@ updates:
 
 <h2 class="responsive-heading">Social Computing × AI × Governance</h2>
 
-I am a PhD student at the UMich working with [Farnaz Jahanbakhsh](https://people.csail.mit.edu/farnazj/). I build AI-powered social computing systems that give users control over their digital experiences—from personalized content moderation to focused browsing. When I encounter a problem, I love to design and code solutions (see [here](link), also [here](link)).
+I am a PhD student at the UMich working with [Farnaz Jahanbakhsh](https://people.csail.mit.edu/farnazj/). 
+I build AI-powered social computing systems that give users control over their digital experiences—from personalized content moderation to focused browsing. 
+
+When I encounter a problem, I love to design and code solutions (see [here](link), also [here](link)).
 
 >**```How can we design and build systems that empower users to shape their digital experiences?```**
 
@@ -17,7 +20,9 @@ I am a PhD student at the UMich working with [Farnaz Jahanbakhsh](https://people
 
 ### Personalized Content Moderation Through AI
 
-Platforms define harm universally and respond with suppression. What if users could define harm themselves? We built **DIY-MOD** (CHI 2026, under review) that transforms harmful elements within content instead of removing the entire post. This preserves information while respecting individual needs. DIY-MOD applies real-time, context-aware personalized transformations through optimized LLM/VLM pipelines.
+Platforms define harm universally and respond with suppression. _What if users could define harm themselves?_ We built **DIY-MOD**, a system with optimized LVLM pipelines that transforms user-defined harmful elements within content in real-time instead of removing the entire post.
+
+(CHI 2026, under review)
 
 
 Current work  further explores AI-powered user safety and autonomy online:
