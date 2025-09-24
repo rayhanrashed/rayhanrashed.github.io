@@ -1,71 +1,87 @@
 ---
 layout: home
 updates:
-  - date: "09/2024"
-    text: "📍 Excited to start my PhD journey with awesome Farnaz Jahanbakhsh!"
-#   - date: "11/2024"
-#     text: "Got 2/2 Outstanding Review Recognition for CHI'25!"
-  - date: "06/2024"
-    text: "🏅 Received Prime Minister's Award for the best MS student in the ICT sector in Bangladesh [here]"
-
-
-# reading_now:
-#   - title: "Bayesian Methods For Hackers: Probabilistic Programming And Bayesian Inference"
-#     image: "media/bb.jpg"
-#   - title: "Auditing Algorithms: Understanding Algorithmic Systems from the Outside In"
-#     image: "media/audits.jpg"
-# reading_description: "Alternating between these two books. Next in line: <strong>Causal Inference: What If </strong> by Miguel Angel Hernán"
+  - date: "10/2025"
+    text: "Demonstrating DIY-MOD at Michigan AI Symposium"
+  - date: "09/2025"
+    text: "Presenting at Trust and Safety Research Conference, Stanford"
 ---
 
 <h2 class="responsive-heading">Social Computing × AI × Governance</h2>
 
-Hi, I'm **Rayhan** ("Raye-haan"), a PhD student passionate about **Social Computing** and **AI & Tech Governance.** I work with awesome [Farnaz Jahanbakhsh](https://people.csail.mit.edu/farnazj/) at the [University of Michigan](https://www.umich.edu). Outside research, I’m a husband 👨‍❤️‍👩  & Chelsea fan <img src="media/Chelsea_FC.png" alt="Chelsea FC" style="width:20px;height:20px;vertical-align:middle;transform:translate(0%, -13%);;">!
+I am a PhD student at the UMich working with [Farnaz Jahanbakhsh](https://people.csail.mit.edu/farnazj/). I build AI-powered social computing systems that give users control over their digital experiences—from personalized content moderation to focused browsing. When I encounter a problem, I love to design and code solutions (see [here](link), also [here](link)).
 
-I design social computing systems aimed at achieving ethical, pro-social outcomes aligned with user preferences and community values. I complement hands-on system design with rigorous mixed-method studies, driven by one overarching question:
+>**```How can we design and build systems that empower users to shape their digital experiences?```**
 
->**```How can AI-powered civic technologies empower communities to shape their digital—and social—experiences?```**
+## Research
 
-I explore several interconnected areas:
+### Personalized Content Moderation Through AI
 
-- **Personalized & Community-driven Moderation:**  
-  Creating tools that empower communities, rather than platforms, to define and manage their own online experiences.
+Platforms define harm universally and respond with suppression. What if users could define harm themselves? We built **DIY-MOD** (CHI 2026, under review) that transforms harmful elements within content instead of removing the entire post. This preserves information while respecting individual needs. DIY-MOD applies real-time, context-aware personalized transformations through optimized LLM/VLM pipelines.
 
-- **Policy & Governance in Social Computing:**  
-  Designing AI systems that democratize decision-making, addressing risks of centralized control, biases, and echo chambers.
 
-- **Ethics of the Attention Economy & Pro-Social Platforms:**  
-  Challenging existing platform designs that prioritize user attention over community health and proposing viable alternatives aligned with meaningful interactions.
+Current work  further explores AI-powered user safety and autonomy online:
 
-- **AI in Unconventional Contexts (Spiritual Computing):**  
-  Exploring how AI can facilitate deeper, reflective, or spiritual digital experiences, challenging traditional notions of online communities.
+**Agentic AI for Online Safety:** How can autonomous systems protect users across the entire web, beyond specific platforms?
 
----
+**On-Device Intelligence with WebGPU:** Can we democratize AI safety by eliminating cloud dependencies? I'm building hybrid architectures where sensitive processing happens locally while leveraging cloud models strategically—making personalized safety both private and affordable.
 
-### Selected Publications
+### Governance for User-Centered Platforms
 
-- **[Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19 in Bangladesh](/content/papers/pandemic_repair.pdf)**  
-  **Rayhan Rashed**, Mohammad Rashidujjaman Rifat, Syed Ishtiaque Ahmed | **ACM COMPASS 2021**
+I think systems alone don't create change, we also need regulatory frameworks that enable user agency. My **Consumer Moderation Rights** framework (FAccT 2026, in prep) connects user autonomy to existing consumer protection laws, providing actionable pathways for platform accountability.
 
-- **[Dakter Bari: Introducing Intermediary to Ensure Healthcare Services to Extremely Impoverished People](/content/papers/dakter_bari.pdf)**  
-  **Rayhan Rashed\***, Md Aminur Rahman\*, Sharmin Akther Purabi, Noshin Ulfat, Sriram Chellappan, ABM Alim Al Islam | **ACM CSCW 2021** (*Equal contribution)
 
-- **[Exploring the Tensions between the Owners and Drivers of Uber Cars in Urban Bangladesh](/content/papers/uber.pdf)**  
-  SM Taiabul Haque, **Rayhan Rashed**, Mehrab Bin Morshed, Md Main Uddin Rony, Naeemul Hassan, Syed Ishtiaque Ahmed | **ACM CSCW 2021**
+
+### LLMs for Scaling Education
+
+I believe LLMs' highest impact lies in democratizing quality education:
+
+-- **Current:** In collaboration with UMich Physical Therapy, we built LLM systems that scale expert feedback for clinical documentation and learning (AAAI IAAI 2026, under review)
+
+-- **Previous:** In 2023-24, I worked on developing one of the first LLM-based personalized tutoring systems with virtual tutors called KALEEM. ([demo](link))
+
+## Selected Publications
+
+- **What If Moderation Didn't Mean Suppression? A Case for Personalized Content Transformation**  
+  **Rayhan Rashed**, Farnaz Jahanbakhsh | *CHI 2026 (Under Review)*  
+  **[📄 PDF](link) |  [Video](link) |  [Code](link)**
+
+- **Consumer Moderation Rights: Fixing Social-Media "Defective Design"**  
+  **Rayhan Rashed** | *FAccT 2026 (Manuscript Under Prep)*  
+  **[📄 PDF](link)**
+
+- **Learning Together: Improving Documentation in a Pro Bono Physical Therapy Clinic**  
+  **Rayhan Rashed** et al. | *IAAI 2026 (Under Review)*  
+  **[📄 PDF](link)**
+
+- **What a Large Scale Study Tells Us About the Digital Divide in Rural Bangladesh**  
+  **Rayhan Rashed** et al. | *ACM COMPASS 2025*  
+  **[📄 PDF](https://dl.acm.org/doi/pdf/10.1145/3715335.3735463)  |  [Slides](link)**
+
+- **Dakter Bari: Healthcare Services for Extremely Impoverished People**  
+  **Rayhan Rashed\*** et al. | *ACM CSCW 2021*  
+  **[📄 PDF](/content/papers/dakter_bari.pdf)  |   [Presentation](link)**
+
+- **Tensions between Uber Owners and Drivers in Bangladesh**  
+  SM Taiabul Haque, **Rayhan Rashed** et al. | *ACM CSCW 2021*  
+  **[📄 PDF](/content/papers/uber.pdf)**
 
 See the complete list on my [Google Scholar](https://scholar.google.com/citations?user=6O9kQYAAAAAJ).
 
----
+## Background
 
-### Previous Experience
+**Education**  
+-- BS & MS in CS, Bangladesh University of Engineering & Technology (BUET)  
+-- 🏆🏆 Prime Minister's Award for Best MS Research in ICT, Bangladesh (2024)
 
-Before joining Michigan, I was:
+**Industry**  
+Research Engineer, [National Center for Artificial Intelligence (NCAI)](link) — Worked in developing [KALEEM](link), LLM-powered personalized education platform with virtual tutors.
 
-- **Lecturer** at the [CS Department](https://cse.buet.ac.bd/) at [Bangladesh University of Engineering & Technology (BUET)](https://www.buet.ac.bd/), graduating with a GPA of 3.94 (2nd in class). My academic growth was shaped by [Dr. A.B.M. Alim Al Islam](https://sites.google.com/site/abmalimalislam/publications), my undergraduate advisor.
+**Prior Research**
+During my undergrad, I extensively studied ([CSCW 2021](/content/papers/uber.pdf), [COMPASS 2021](link)) and built ([CSCW 2021](/content/papers/dakter_bari.pdf)) stakeholder-within-loop systems for social-good.
 
-- **Research Engineer** at [Saudi Data & AI Authority (SDAIA)](https://sdaia.gov.sa/), deploying large-scale human-centered AI solutions.
-
-- Collaborator with [Dr. Ishtiaque Ahmed](http://ishtiaque.net) at the [University of Toronto](http://cs.toronto.edu/), where I honed my mixed-method research skills through extensive community engagement (2000+ surveys, 120+ interviews).
-
----
+**Beyond Research**
+I’m a husband 👨‍❤️‍👩  and Chelsea fan <img src="media/Chelsea_FC.png" alt="Chelsea FC" style="width:20px;height:20px;vertical-align:middle;transform:translate(0%, -13%);;">!
 
 Feel free to [reach out](mailto:rayrash@umich.edu) for collaboration, discussion, or just a chat!
+
