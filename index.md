@@ -20,12 +20,11 @@ When I encounter a problem, I love to design and code solutions (see [here](link
 
 ### Personalized Content Moderation Through AI
 
-Platforms define harm universally and respond with suppression. _What if users could define harm themselves?_ We built **DIY-MOD**, a system with optimized LVLM pipelines that transforms user-defined harmful elements within content in real-time instead of removing the entire post.
-
+Platforms define harm universally and respond with suppression. _<u>What if users could define harm themselves?</u>_ We built **DIY-MOD**, a system with optimized LVLM pipelines that transforms user-defined harmful elements within content in real-time instead of removing the entire post.
 (CHI 2026, under review)
 
 
-Current work  further explores AI-powered user safety and autonomy online:
+Current work broadening the scope of AI-powered user safety and autonomy:
 
 **Agentic AI for Online Safety:** How can autonomous systems protect users across the entire web, beyond specific platforms?
 
